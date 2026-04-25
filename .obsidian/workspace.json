@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/pages/eukaryotic-gene-structure.md",
+                "file": "wiki/glossary/What is it that gene prediction predicts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "eukaryotic-gene-structure"
-            }
-          },
-          {
-            "id": "d39388dcd7dafb7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/glossary/Shine-Delgarno sequence.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Shine-Delgarno sequence"
+              "title": "What is it that gene prediction predicts"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/glossary/Shine-Delgarno sequence.md",
+                "file": "wiki/glossary/What is it that gene prediction predicts.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Shine-Delgarno sequence"
+              "title": "Backlinks for What is it that gene prediction predicts"
             }
           },
           {
@@ -142,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/glossary/Shine-Delgarno sequence.md",
+                "file": "wiki/glossary/What is it that gene prediction predicts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Shine-Delgarno sequence"
+              "title": "Outgoing links from What is it that gene prediction predicts"
             }
           },
           {
@@ -185,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/glossary/Shine-Delgarno sequence.md",
+                "file": "wiki/glossary/What is it that gene prediction predicts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Shine-Delgarno sequence"
+              "title": "Outline of What is it that gene prediction predicts"
             }
           }
         ],
@@ -213,12 +199,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "d39388dcd7dafb7e",
+  "active": "4998a142f7d2a3fe",
   "lastOpenFiles": [
-    "wiki/glossary/_glossary.base",
+    "wiki/glossary/Why are massive introns (100 kb+) functionally tolerated despite their metabolic cost.md",
+    "wiki/glossary/What is it that gene prediction predicts.md",
     "wiki/pages/eukaryotic-gene-structure.md",
+    "wiki/glossary/Spliceosome.md",
     "wiki/glossary/Shine-Delgarno sequence.md",
+    "wiki/glossary/Open Reading Frame (ORF).md",
+    "wiki/glossary/Codon usage bias.md",
     "wiki/study_path.md",
+    "wiki/glossary/_glossary.base",
     "wiki/glossary/Cα RMSD.md",
     "wiki/glossary/Alternative splicing.md",
     "CLAUDE.md.tmp.15516.1777149551309",
@@ -238,10 +229,6 @@
     "wiki/glossary/Explicit vs. implicit solvent.md",
     "wiki/glossary/Periodic boundary conditions (PBC).md",
     "wiki/glossary/Ergodic hypothesis.md",
-    "wiki/glossary/Force field.md",
-    "wiki/glossary/HADDOCK scoring function.md",
-    "wiki/glossary/Spatial restraints.md",
-    "wiki/glossary/DOPE score.md",
     "CLAUDE.md.tmp.46064.1777142312566",
     "CLAUDE.md.tmp.46064.1777142305724",
     "CLAUDE.md.tmp.46064.1777142293892",

@@ -112,3 +112,11 @@ Append-only record of all operations performed on this wiki.
 - `Assess homology model quality from sequence identity.md` — __EXECUTABLE (Module2)
 
 **Notes**: All entries cover the concepts directly tested in exam flashcards. Entries use wiki-links ([[page-name]]) to connect to related pages and to each other. Total glossary count: 39 files (3 pre-existing + 36 new).
+
+---
+
+## 2026-04-26 — New glossary entries
+
+**Entry created**:
+- `Why are massive introns (100 kb+) functionally tolerated despite their metabolic cost.md` — __QUESTION (Module1): covers metabolic cost vs. benefit, cotranscriptional splicing timing, embedded regulatory elements, tissue-specific expression, and the mutational hazard / drift argument.
+- `Spliceosome.md` — __DEFINITION (Module1): composition (U1/U2/U4/U5/U6 snRNPs, ~150 proteins), two-step transesterification mechanism, assembly order, minor spliceosome, link to GT-AG rule and signal sensors.
