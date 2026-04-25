@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "a1e6520d0ba41697",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a057549ffd11edd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9d1caf21b3f39d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/pages/eukaryotic-gene-structure.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "eukaryotic-gene-structure"
+            }
+          },
+          {
+            "id": "241d0a9ffe6b9ae3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/glossary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "glossary"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf39214535320acf",
+    "type": "split",
+    "children": [
+      {
+        "id": "8414684a6d2e380d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d03500a5b158d6d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "799c8cf27f98dbde",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7170dedcfa760798",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "04a195cba572d2fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a7728a839aa136e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3774c8eaf44bb77",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/pages/eukaryotic-gene-structure.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for eukaryotic-gene-structure"
+            }
+          },
+          {
+            "id": "664e8add995f0298",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wiki/pages/eukaryotic-gene-structure.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from eukaryotic-gene-structure"
+            }
+          },
+          {
+            "id": "e690dd813f9a626a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a4bd16b5d7d43782",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1ff141674a925ee8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/pages/eukaryotic-gene-structure.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of eukaryotic-gene-structure"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "publish:Publish changes...": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "0d03500a5b158d6d",
+  "lastOpenFiles": [
+    "CLAUDE.md.tmp.46064.1777116167549",
+    "raw/graphics",
+    "CLAUDE.md.tmp.46064.1777115844566",
+    "wiki/glossary.md",
+    "wiki/pages/eukaryotic-gene-structure.md",
+    "CLAUDE.md",
+    "raw/2.1.gene_prediction_v15.pdf",
+    "wiki/study_path.md",
+    "wiki/log.md",
+    "wiki/log.md.tmp.18020.1777062504553",
+    "wiki/study_path.md.tmp.18020.1777062486088",
+    "wiki/exam_prep.md",
+    "wiki/exam_prep.md.tmp.18020.1777062450105",
+    "wiki/glossary.md.tmp.18020.1777062363805",
+    "wiki/index.md",
+    "wiki/pages/amino-acid-substitutions.md",
+    "wiki/pages/molecular-dynamics.md",
+    "wiki/pages/molecular-docking.md",
+    "wiki/pages/homology-modeling.md",
+    "wiki/pages/sequence-alignment.md",
+    "wiki/pages/evolutionary-conservation.md",
+    "wiki/pages/gene-prediction-tools.md",
+    "wiki/pages/viterbi-algorithm.md",
+    "wiki/pages/hidden-markov-models.md",
+    "wiki/pages/content-sensors.md",
+    "wiki/pages/signal-sensors.md",
+    "wiki/pages/extrinsic-vs-intrinsic-information.md",
+    "wiki/pages/gene-prediction.md",
+    "Welcome.md",
+    "raw/annurev.genom.7.Ng_Henikoff.pdf",
+    "raw/Modelli Nascosti di Markov-Gene pred.pdf",
+    "raw/Notes_Comp_Biology.pdf",
+    "page-name.md",
+    "wiki/pages/variant-effects.md",
+    "wiki/pages/pymol.md",
+    "wiki/pages/protein-structure.md"
+  ]
+}

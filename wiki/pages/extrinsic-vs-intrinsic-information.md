@@ -1,0 +1,103 @@
+# Extrinsic vs. Intrinsic Information in Gene Prediction
+
+**Summary**: Gene prediction methods use two fundamentally different classes of evidence — extrinsic information derived from outside the target sequence, and intrinsic (ab initio) information derived from the sequence itself.
+
+**Sources**: [[2.1.gene_prediction_v15.pdf]]
+
+**Last updated**: 2026-04-24
+
+---
+
+## The division
+
+| Class | Definition | Examples |
+|-------|-----------|---------|
+| Extrinsic | Evidence not from the target genome sequence | cDNA, ESTs, protein homology, RNA-seq |
+| Intrinsic / ab initio | Derived solely from the target genome sequence | Signal sensors, content sensors, conservation |
+
+Methods using no extrinsic information are called **de novo** methods. The term **ab initio** is used strictly for de novo methods that also do not use informant genomes.
+
+## Extrinsic information
+
+### Full-length cDNA (gold standard)
+
+A full-length cDNA aligned to the genome with canonical splice sites defines the **gold standard** for gene annotation. It directly gives transcript boundaries and exon coordinates.
+
+Tools for spliced alignment: **BLAST** (rough), then dedicated spliced aligners:
+- Procrustes, EST_GENOME, sim4, BLAT, GMAP, Exonerate, Genewise
+
+These use either simple terminal dinucleotide models or position weight matrices for splice junction scoring.
+
+### ESTs and short reads
+
+Expressed Sequence Tags (ESTs) are partial cDNA sequences. Their alignments are useful but incomplete. RNA-seq reads provide similar evidence at scale.
+
+When homology is incomplete or low quality, the spliced alignment can be extended with ab initio prediction — as done by ENSEMBL and UCSC gene pipelines.
+
+### Protein homology
+
+Protein sequences from related organisms can be aligned to the genome with tools like Genewise (aligns proteins accounting for introns). Useful when:
+- Full cDNA is unavailable
+- A well-characterised protein family exists in another species
+
+At low similarity, BLAST HSPs (High Scoring Pairs) can be incorporated probabilistically into pair HMMs.
+
+## Intrinsic information
+
+Intrinsic approaches use three types of signals in the sequence:
+
+### 1. Signal sensors
+Short, recognisable sequence motifs at functional boundaries:
+- Donor splice sites (GT)
+- Acceptor splice sites (AG), branch point, polypyrimidine tract
+- Start codon (ATG), Kozak context
+- Stop codon (TAA, TAG, TGA)
+- Promoter elements (TATA box), poly-A signal (AATAAA)
+
+Modelled by [[signal-sensors]] (PWMs, WAMs, Markov chains, SVMs).
+
+### 2. Content sensors
+Statistical properties of coding vs. non-coding sequence:
+- Codon usage bias
+- Hexamer (6-mer) frequencies with codon position dependency
+- 5th-order inhomogeneous Markov model (3-periodic)
+- Di-codon usage
+
+See [[content-sensors]].
+
+### 3. Evolutionary conservation
+Coding sequences evolve more slowly than non-coding. When an informant genome is available:
+- Conservation pattern is an orthogonal measure of coding potential
+- Methods: SGP2, TWINSCAN (1 informant), CONTRAST (27 informants)
+- Phylo-HMMs model evolutionary history explicitly
+
+See [[evolutionary-conservation]].
+
+## Combining extrinsic and intrinsic
+
+Modern gene prediction pipelines integrate both:
+- **Stepwise pipelines** (ENSEMBL, UCSC): spliced alignment → ab initio extension
+- **Direct incorporation**: Twinscan, Augustus (hints framework)
+- **Combiners**: GLEAN, EuGène — take predictions from multiple tools and merge
+
+The integration matters: extrinsic evidence is more reliable when available but sparse; intrinsic methods scale to the entire genome.
+
+## Related pages
+
+- [[gene-prediction]]
+- [[signal-sensors]]
+- [[content-sensors]]
+- [[evolutionary-conservation]]
+- [[sequence-alignment]]
+- [[gene-prediction-tools]]
+
+## Test yourself
+
+**Q**: What is the difference between "de novo" and "ab initio" gene prediction?
+**A**: De novo methods use only the target genome sequence (no external evidence). Ab initio is a stricter subset that also excludes informant genome alignments. Not all sources use these terms consistently.
+
+**Q**: Why is a full-length cDNA alignment considered the gold standard for gene annotation?
+**A**: Because it provides direct experimental evidence of the transcript. If the cDNA is full-length and aligns to the genome at canonical splice sites, the exon coordinates are essentially ground truth — no inference required.
+
+**Q**: What are ESTs and how are they used in gene prediction?
+**A**: Expressed Sequence Tags are short, single-pass cDNA sequences. They are aligned to the genome as partial evidence of transcription. Because they are partial, they must be combined with other evidence (ab initio or other ESTs) to define full gene models.
