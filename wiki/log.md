@@ -36,3 +36,21 @@ Append-only record of all operations performed on this wiki.
 - `wiki/log.md`
 
 **Notes**: First ingest from empty wiki. All 4 sources fully processed. Pages cover gene prediction (sources 1 and 3), computational structural biology (source 2), and nsSNP/protein function prediction (source 4). The `hidden-markov-models.md` page synthesises both the Alioto & Guigó review and the Italian HMM lecture slides.
+
+---
+
+## 2026-04-25 — Lint pass + graphic integration + new tool-reference pages
+
+**Changes**:
+
+- `wiki/pages/eukaryotic-gene-structure.md` — embedded `raw/graphics/eukaryotic-gene-structure.png` with explanatory caption (F1 lint fix)
+- `wiki/pages/genscan.md` — new page: GENSCAN GHMM architecture, MDD donor model, inhomogeneous Markov content model, state graph, training, limitations, extensions (E1)
+- `wiki/pages/sequence-search-tools.md` — new page: BLAST, PSI-BLAST, HMMER, HHpred, BLAT, GMAP — strategy, sensitivity comparison, use-case guide (E2)
+- `wiki/pages/modeller.md` — new page: spatial restraints, objective function, VTF + MD/SA optimisation, multi-template modeling, quality assessment tools (E4)
+- `wiki/pages/sequence-alignment.md` — added [[amino-acid-substitutions]] inline links on SIFT/PolyPhen mentions; added [[sequence-search-tools]] to Related pages (E3)
+- `wiki/pages/gene-prediction-tools.md` — GENSCAN heading linked to [[genscan]]; [[genscan]] and [[sequence-search-tools]] added to Related pages
+- `wiki/pages/homology-modeling.md` — MODELLER heading linked to [[modeller]]; [[modeller]] and [[sequence-search-tools]] added to Related pages
+- `wiki/pages/hidden-markov-models.md` — GENSCAN mention linked to [[genscan]]
+- `wiki/index.md` — added entries for genscan, sequence-search-tools, modeller
+
+**Notes**: Lint identified 1 unreferenced graphic (now embedded) and 4 heavily-cited tools lacking dedicated pages (now created). No orphan pages, no broken links, no format violations found.

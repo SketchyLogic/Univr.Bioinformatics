@@ -27,6 +27,10 @@ Eukaryotes are fundamentally different:
                                     ^Don                ^Ac
 ```
 
+![Eukaryotic gene structure](../../raw/graphics/eukaryotic-gene-structure.png)
+
+*Figure: Schematic of a eukaryotic gene from promoter to poly-A signal. The diagram shows the alternating exon–intron organisation, the positions of the donor (Don, 5' splice site, canonical GT) and acceptor (Ac, 3' splice site, canonical AG) dinucleotides, and the key regulatory elements (TSS, UTRs, poly-A signal) flanking the coding sequence. Each intron is removed by the spliceosome to produce mature mRNA. (Source: [[raw/graphics/eukaryotic-gene-structure.png]])*
+
 | Component | Description |
 |-----------|-------------|
 | Promoter | Regulatory region upstream of the gene; recruits RNA Pol II |

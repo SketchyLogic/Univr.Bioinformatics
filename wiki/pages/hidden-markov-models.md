@@ -72,7 +72,7 @@ The 2-state exon/intron model is a pedagogical abstraction. Real gene-finding HM
 - Signal states modelled by their own sub-HMMs (PWMs, WAMs, MDD)
 - Content states modelled by higher-order Markov chains (5th-order hexamer model)
 
-The first HMM gene finders: Genie (Kulp et al. 1996), GENSCAN (Burge & Karlin 1997).
+The first HMM gene finders: Genie (Kulp et al. 1996), [[genscan|GENSCAN]] (Burge & Karlin 1997).
 
 ## Generalized HMMs (GHMMs)
 

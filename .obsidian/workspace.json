@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "8a057549ffd11edd",
+        "id": "7c48a0580eac40f3",
         "type": "tabs",
         "children": [
           {
-            "id": "f9d1caf21b3f39d1",
+            "id": "e2311e793a537ad1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/study_path.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "study_path"
+            }
+          },
+          {
+            "id": "e6be433be290e1fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,22 +34,9 @@
               "icon": "lucide-file",
               "title": "eukaryotic-gene-structure"
             }
-          },
-          {
-            "id": "241d0a9ffe6b9ae3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/glossary.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "glossary"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,22 +199,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "0d03500a5b158d6d",
+  "active": "e6be433be290e1fb",
   "lastOpenFiles": [
+    "wiki/study_path.md",
+    "raw/graphics/eukaryotic-gene-structure.png",
+    "wiki/pages/modeller.md",
+    "wiki/pages/sequence-search-tools.md",
+    "wiki/pages/genscan.md",
+    "raw/2.1.gene_prediction_v15.pdf",
+    "wiki/pages/eukaryotic-gene-structure.md",
+    "__temp/__temp.md",
+    "__temp",
+    "Clippings/Untitled",
+    "raw/Notes_Comp_Biology.pdf",
     "CLAUDE.md.tmp.46064.1777116167549",
     "raw/graphics",
     "CLAUDE.md.tmp.46064.1777115844566",
     "wiki/glossary.md",
-    "wiki/pages/eukaryotic-gene-structure.md",
     "CLAUDE.md",
-    "raw/2.1.gene_prediction_v15.pdf",
-    "wiki/study_path.md",
     "wiki/log.md",
     "wiki/log.md.tmp.18020.1777062504553",
     "wiki/study_path.md.tmp.18020.1777062486088",
     "wiki/exam_prep.md",
     "wiki/exam_prep.md.tmp.18020.1777062450105",
-    "wiki/glossary.md.tmp.18020.1777062363805",
     "wiki/index.md",
     "wiki/pages/amino-acid-substitutions.md",
     "wiki/pages/molecular-dynamics.md",
@@ -228,13 +236,6 @@
     "wiki/pages/signal-sensors.md",
     "wiki/pages/extrinsic-vs-intrinsic-information.md",
     "wiki/pages/gene-prediction.md",
-    "Welcome.md",
-    "raw/annurev.genom.7.Ng_Henikoff.pdf",
-    "raw/Modelli Nascosti di Markov-Gene pred.pdf",
-    "raw/Notes_Comp_Biology.pdf",
-    "page-name.md",
-    "wiki/pages/variant-effects.md",
-    "wiki/pages/pymol.md",
-    "wiki/pages/protein-structure.md"
+    "Welcome.md"
   ]
 }

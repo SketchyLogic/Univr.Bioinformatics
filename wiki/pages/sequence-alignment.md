@@ -68,10 +68,10 @@ The best-known implementation: **HHpred** (Söding, 2005) — pairwise compariso
 ## Multiple Sequence Alignment (MSA)
 
 An MSA aligns *n* sequences simultaneously, revealing conserved positions (functionally important) and variable positions. MSA is the input to:
-- PSSM construction (PSI-BLAST, SIFT)
+- PSSM construction (PSI-BLAST, SIFT — see [[amino-acid-substitutions]])
 - Profile HMM building (HMMER)
 - Phylogenetic analysis
-- Conservation-based AAS prediction (SIFT, PolyPhen)
+- Conservation-based AAS prediction ([[amino-acid-substitutions|SIFT, PolyPhen]])
 
 MSA errors propagate downstream — a misaligned region will cause errors in the PSSM and any model built from it. MSA quality should always be inspected, especially when SI < 30%.
 
@@ -94,6 +94,7 @@ Standard pairwise aligners cannot handle introns. Spliced aligners extend the mo
 - [[evolutionary-conservation]]
 - [[extrinsic-vs-intrinsic-information]]
 - [[gene-prediction-tools]]
+- [[sequence-search-tools]]
 
 ## Other sources
 

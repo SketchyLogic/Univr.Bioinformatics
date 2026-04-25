@@ -10,7 +10,7 @@
 
 ## Ab initio / de novo predictors
 
-### GENSCAN (Burge & Karlin, 1997)
+### [[genscan|GENSCAN]] (Burge & Karlin, 1997)
 The landmark GHMM gene finder. Uses a Generalized HMM with:
 - MDD (Maximal Dependence Decomposition) for donor site
 - Standard Markov chain for acceptor site
@@ -110,6 +110,8 @@ General principle: combiners perform better than any individual input because in
 - [[viterbi-algorithm]]
 - [[extrinsic-vs-intrinsic-information]]
 - [[evolutionary-conservation]]
+- [[genscan]]
+- [[sequence-search-tools]]
 
 ## Test yourself
 

@@ -68,7 +68,7 @@ Three approaches:
 - **Segment matching** (SegMod/LEVITT): builds the crude model using a subset of atomic positions (Cα) from the 3D template
 - **Satisfaction of spatial restraints** (MODELLER): extracts spatial constraints (distances, φ/ψ angles) from the template and minimises violations
 
-### MODELLER (Fiser et al., 2000; Šali & Blundell, 1994)
+### [[modeller|MODELLER]] (Fiser et al., 2000; Šali & Blundell, 1994)
 
 The most widely used tool for homology modeling. Steps:
 1. Align target sequence with template structure(s)
@@ -114,6 +114,8 @@ Three approaches:
 - [[molecular-docking]]
 - [[molecular-dynamics]]
 - [[amino-acid-substitutions]]
+- [[modeller]]
+- [[sequence-search-tools]]
 
 ## Other sources
 

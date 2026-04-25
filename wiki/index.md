@@ -16,6 +16,7 @@ This is the master table of contents. All wiki pages are listed here with one-li
 | [[hidden-markov-models]] | HMM fundamentals, the dishonest casino analogy, GHMM, Phylo-HMM, SM-CRF |
 | [[viterbi-algorithm]] | Dynamic programming decoding of the most likely gene structure |
 | [[gene-prediction-tools]] | Reference page: GENSCAN, AUGUSTUS, GeneID, combiners, spliced aligners |
+| [[genscan]] | GENSCAN architecture: GHMM states, MDD donor model, inhomogeneous Markov content model |
 | [[evolutionary-conservation]] | Conservation as signal for both gene prediction and protein function |
 
 ## Protein Structure & Computational Methods
@@ -23,7 +24,9 @@ This is the master table of contents. All wiki pages are listed here with one-li
 | Page | Description |
 |------|-------------|
 | [[sequence-alignment]] | Pairwise, profile-sequence, profile-profile alignment; BLAST, PSI-BLAST, HHpred |
+| [[sequence-search-tools]] | Tool reference: BLAST, PSI-BLAST, HMMER, HHpred, BLAT, GMAP — strategy and use cases |
 | [[homology-modeling]] | Template-based 3D structure prediction: steps, MODELLER, quality assessment |
+| [[modeller]] | MODELLER tool: spatial restraints, objective function, VTF + MD/SA optimisation |
 | [[molecular-docking]] | Binding pose prediction: HADDOCK, Autodock/Vina, scoring functions |
 | [[molecular-dynamics]] | Simulating atomic motion: force fields, integrators, PBC, solvation, CG methods |
 
