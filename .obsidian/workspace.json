@@ -11,14 +11,13 @@
             "id": "e2311e793a537ad1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "wiki/study_path.md",
-                "mode": "source",
-                "source": false
+                "file": "wiki/glossary/_glossary.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "study_path"
+              "icon": "lucide-table",
+              "title": "_glossary"
             }
           }
         ]
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/study_path.md",
+                "file": "wiki/glossary/_glossary.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for study_path"
+              "title": "Backlinks for _glossary"
             }
           },
           {
@@ -113,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/study_path.md",
+                "file": "wiki/glossary/_glossary.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from study_path"
+              "title": "Outgoing links from _glossary"
             }
           },
           {
@@ -156,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/study_path.md",
+                "file": "wiki/glossary/_glossary.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of study_path"
+              "title": "Outline of _glossary"
             }
           }
         ],
@@ -186,9 +185,12 @@
   },
   "active": "e2311e793a537ad1",
   "lastOpenFiles": [
+    "wiki/glossary/Alternative splicing.md",
+    "wiki/glossary/_glossary.base",
+    "wiki/study_path.md",
+    "wiki/pages/eukaryotic-gene-structure.md",
     "CLAUDE.md.tmp.15516.1777149551309",
     "wiki/glossary/Ambiguous Interaction Restraint (AIR).md",
-    "wiki/glossary/Alternative splicing.md",
     "wiki/glossary/Evolution - Random mutation and natural selection.md",
     "wiki/glossary/Assess homology model quality from sequence identity.md",
     "wiki/glossary/Describe the HADDOCK docking protocol.md",
@@ -210,8 +212,6 @@
     "wiki/glossary/Cα RMSD.md",
     "wiki/glossary/DOPE score.md",
     "wiki/glossary/Homology modeling.md",
-    "wiki/glossary/E-value.md",
-    "wiki/glossary/Position-Specific Scoring Matrix (PSSM).md",
     "CLAUDE.md.tmp.46064.1777142312566",
     "CLAUDE.md.tmp.46064.1777142305724",
     "CLAUDE.md.tmp.46064.1777142293892",
@@ -220,8 +220,6 @@
     "raw/Modelli Nascosti di Markov-Gene pred.pdf",
     "raw/2.1.gene_prediction_v15.pdf",
     "raw/graphics/eukaryotic-gene-structure.png",
-    "__temp",
-    "Clippings/Untitled",
-    "raw/Notes_Comp_Biology.pdf"
+    "__temp"
   ]
 }

@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("__CONCEPT", "__DEFINITION", "__EXECUTABLE")
+    order:
+      - file.name
+      - depth
+      - tags
+    columnSize:
+      file.name: 469
+      note.depth: 88
