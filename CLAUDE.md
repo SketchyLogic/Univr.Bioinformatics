@@ -152,3 +152,4 @@ When the user asks you to lint or audit the wiki:
 - Keep page names lowercase with hyphens (e.g. `machine-learning.md`)
 - Write in clear, plain language
 - When uncertain about how to categorize something, ask the user
+- Whenever a formula, equation, or mathematical expression is relevant, write it using LaTeX syntax: inline with `$...$` and display (block) with `$$...$$`
