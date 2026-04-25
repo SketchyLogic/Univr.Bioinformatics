@@ -2,7 +2,7 @@
 tags:
   - __EXECUTABLE
   - Module2
-depth: 5
+depth: 2
 ---
 # Assess homology model quality from sequence identity
 

@@ -2,7 +2,7 @@
 tags:
   - __DEFINITION
   - Module2
-depth: 2
+depth: 0
 ---
 # Ambiguous Interaction Restraint (AIR)
 
