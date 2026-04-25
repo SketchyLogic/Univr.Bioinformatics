@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/pages/eukaryotic-gene-structure.md",
+                "file": "wiki/glossary/Evolution - Random mutation and natural selection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "eukaryotic-gene-structure"
+              "title": "Evolution - Random mutation and natural selection"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:EXECUTABLE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 342.5004348754883
   },
   "right": {
     "id": "04a195cba572d2fa",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/pages/eukaryotic-gene-structure.md",
+                "file": "wiki/glossary/Evolution - Random mutation and natural selection.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for eukaryotic-gene-structure"
+              "title": "Backlinks for Evolution - Random mutation and natural selection"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/pages/eukaryotic-gene-structure.md",
+                "file": "wiki/glossary/Evolution - Random mutation and natural selection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from eukaryotic-gene-structure"
+              "title": "Outgoing links from Evolution - Random mutation and natural selection"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/pages/eukaryotic-gene-structure.md",
+                "file": "wiki/glossary/Evolution - Random mutation and natural selection.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of eukaryotic-gene-structure"
+              "title": "Outline of Evolution - Random mutation and natural selection"
             }
           }
         ],
@@ -201,27 +201,30 @@
   },
   "active": "e6be433be290e1fb",
   "lastOpenFiles": [
+    "wiki/glossary/Find how many exons given a gene.md",
+    "wiki/glossary/Shine-Delgarno sequence.md",
+    "wiki/glossary/Evolution - Random mutation and natural selection.md",
+    "CLAUDE.md.tmp.46064.1777142312566",
+    "CLAUDE.md.tmp.46064.1777142305724",
+    "CLAUDE.md.tmp.46064.1777142293892",
+    "CLAUDE.md.tmp.46064.1777142289551",
     "wiki/study_path.md",
+    "wiki/pages/eukaryotic-gene-structure.md",
+    "wiki/glossary",
+    "raw/Modelli Nascosti di Markov-Gene pred.pdf",
+    "raw/2.1.gene_prediction_v15.pdf",
     "raw/graphics/eukaryotic-gene-structure.png",
     "wiki/pages/modeller.md",
     "wiki/pages/sequence-search-tools.md",
     "wiki/pages/genscan.md",
-    "raw/2.1.gene_prediction_v15.pdf",
-    "wiki/pages/eukaryotic-gene-structure.md",
     "__temp/__temp.md",
     "__temp",
     "Clippings/Untitled",
     "raw/Notes_Comp_Biology.pdf",
-    "CLAUDE.md.tmp.46064.1777116167549",
-    "raw/graphics",
-    "CLAUDE.md.tmp.46064.1777115844566",
     "wiki/glossary.md",
     "CLAUDE.md",
     "wiki/log.md",
-    "wiki/log.md.tmp.18020.1777062504553",
-    "wiki/study_path.md.tmp.18020.1777062486088",
     "wiki/exam_prep.md",
-    "wiki/exam_prep.md.tmp.18020.1777062450105",
     "wiki/index.md",
     "wiki/pages/amino-acid-substitutions.md",
     "wiki/pages/molecular-dynamics.md",
@@ -233,9 +236,6 @@
     "wiki/pages/viterbi-algorithm.md",
     "wiki/pages/hidden-markov-models.md",
     "wiki/pages/content-sensors.md",
-    "wiki/pages/signal-sensors.md",
-    "wiki/pages/extrinsic-vs-intrinsic-information.md",
-    "wiki/pages/gene-prediction.md",
-    "Welcome.md"
+    "wiki/pages/signal-sensors.md"
   ]
 }

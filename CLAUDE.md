@@ -14,9 +14,9 @@ Claude maintains the wiki. The human curates sources, asks questions, and guides
 raw/               -- source documents (immutable -- never modify these)
 raw/graphics/      -- curated figures; high relevance -- always check when ingesting
 wiki/pages/        -- markdown pages maintained by Claude
+wiki/glossary/     -- atomic entries: one file per term, concept, or exercise
 wiki/index.md      -- table of contents for the entire wiki
 wiki/study_path.md -- the suggested way to study the material in the wiki
-wiki/glossary.md   -- a glossary of key terms and concepts
 wiki/exam_prep.md  -- concepts and questions that will be usefull during examination
 wiki/log.md        -- append-only record of all operations
 ```
@@ -31,7 +31,7 @@ When the user adds a new source to `raw/` and asks you to ingest it:
 4. Create or update concept pages for each major idea or entity
 5. Add wiki-links ([[page-name]]) to connect related pages
 6. Update `wiki/index.md` with new pages and one-line descriptions
-7. Update `wiki/glossary.md` with new terms and sections
+7. For each new term, concept, or exercise introduced by the source, create an atomic entry in `wiki/glossary/` following the **Glossary entry format** below
 8. Update `wiki/exam_prep.md` with key concepts that are useful to grasp the material, flashcards, Atomic question & answer. A set of sections to review the key ideas linearly.
 9. Update `wiki/study_path.md` . This will be the place to go when the learner doesn't know what to study next in the wiki.
 10. If you ingest a file that is some sort of exercise use the template `tempates/exercise.md` to generate a the related file and then add it to the `wiki/index.md` in a section dedicated to exercises.
@@ -74,6 +74,36 @@ Here you can specify material form the web or books that cover the same material
 Flashcards, Q&A, mnemonics... whatever can be useful to test preparation about the topic covered in this page
 ```
 
+## Glossary entry format
+
+Each file in `wiki/glossary/` is an atomic note about a single term, concept, or problem. The filename is the entry's title (spaces are allowed — e.g., `Shine-Delgarno sequence.md`).
+
+Every entry must begin with Obsidian frontmatter that declares its type and, where relevant, its course module:
+
+```yaml
+---
+tags:
+  - __DEFINITION   # or __CONCEPT or __EXECUTABLE
+  - Module1        # optional: course module this entry belongs to
+---
+```
+
+### Types
+
+| Tag | When to use | Content |
+|-----|-------------|---------|
+| `__DEFINITION` | A specific term that needs a precise definition | Concise definition; add graphics or links when relevant |
+| `__CONCEPT` | A broader idea that requires brief explanation | Short explanation; feel free to add links to graphics or online resources |
+| `__EXECUTABLE` | A problem or exercise the learner should be able to solve | Brief strategy to approach and solve the challenge |
+
+### Rules for glossary entries
+
+- One entry per file — never combine multiple terms in one file.
+- Filename = the exact term or question as it would appear in an exam or textbook.
+- Add a module tag (e.g., `Module1`, `Module2`) whenever the entry belongs to a specific course module.
+- Graphics and wiki-links (`[[page-name]]`) are welcome inside entries.
+- Do not add the standard page-format headers (Summary, Sources, Last updated) — the frontmatter is sufficient.
+
 ## Imagery
 
 Wiki pages should be enriched with visuals from the raw source material whenever they aid understanding:
@@ -112,6 +142,7 @@ When the user asks you to lint or audit the wiki:
 - Identify concepts mentioned in pages that lack their own page
 - Flag claims that may be outdated based on newer sources
 - Check that all pages follow the page format above
+- Check that all `wiki/glossary/` entries have valid frontmatter with at least one recognised type tag (`__DEFINITION`, `__CONCEPT`, `__EXECUTABLE`)
 - Report findings as a numbered list with suggested fixes
 
 ## Rules
