@@ -39,20 +39,61 @@ When the user adds a new source to `raw/` and asks you to ingest it:
 
 A single source may touch 10-15 wiki pages. That is normal.
 
+## Document metadata
+
+Every wiki page and glossary entry must open with an Obsidian YAML frontmatter block. This system tracks AI provenance and outstanding human work so that humans and AI can collaborate without losing context.
+
+### Fields
+
+| Field | Type | Set by | Default | Notes |
+|-------|------|--------|---------|-------|
+| `CreatedAt` | `YYYY-MM-DD` | AI or human | — | Set once at creation; never changed |
+| `LastUpdateAt` | `YYYY-MM-DD` | AI or human | = `CreatedAt` | Update every time the file is meaningfully changed |
+| `LastReviewAt` | `YYYY-MM-DD` or `null` | Human only | `null` | AI must never set this field |
+| `ReviewerIds` | list of strings | Human only | `[admin]` | AI must never set or modify this field |
+| `OwnerIds` | list of strings | Human only | `[admin]` | AI must never set or modify this field |
+| `IssueNotes` | string or `null` | Human only | `null` | Describes what the issue |
+| `GeneratedById` | string or `null` | AI only | `null` (human-written) | AI sets this to its model ID (e.g. `claude-sonnet-4-6`) when it creates or substantially rewrites a file |
+
+### Purpose
+
+- `LastReviewAt: null` + `GeneratedBy: <model>` = AI-generated, never human-reviewed → priority for human review queue.
+- `IssueNotes` != null = known problem; human should read and fix.
+- `LastReviewAt` populated = a human has validated the content.
+
+### AI rules for metadata
+
+- **On file creation**: set `CreatedAt`, `LastUpdateAt` (= today), `GeneratedBy` (= current model ID). Leave all human-only fields at their defaults.
+- **On file update**: set `LastUpdateAt` to today. Do not touch `LastReviewAt`, `ReviewerIds`, `OwnerIds`, `IssueNotes`.
+- **Never** set `LastReviewAt` to a date — even if the user says "this looks good." Only a human explicitly editing that field counts as a review.
+
+---
+
 ## Page format
 
 Every wiki page should follow this structure:
 
 ```markdown
+---
+CreatedAt: YYYY-MM-DD
+LastUpdateAt: YYYY-MM-DD
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedBy: claude-sonnet-4-6
+---
+
 # Page Title
 
 **Summary**: One to two sentences describing this page.
 
 **Sources**: List of raw source files this page draws from if possible using obsidian links.
 
-**Last updated**: Date of most recent update.
-
 ---
+
 
 Main content goes here. Use clear headings and short paragraphs.
 
@@ -78,13 +119,22 @@ Flashcards, Q&A, mnemonics... whatever can be useful to test preparation about t
 
 Each file in `wiki/glossary/` is an atomic note about a single term, concept, or problem. The filename is the entry's title (spaces are allowed — e.g., `Shine-Delgarno sequence.md`).
 
-Every entry must begin with Obsidian frontmatter that declares its type and, where relevant, its course module:
+Every entry must begin with Obsidian frontmatter that declares its type, module, and document metadata:
 
 ```yaml
 ---
 tags:
   - __DEFINITION   # or __CONCEPT or __EXECUTABLE
   - Module1        # optional: course module this entry belongs to
+CreatedAt: YYYY-MM-DD
+LastUpdateAt: YYYY-MM-DD
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedBy: claude-sonnet-4-6
 ---
 ```
 
@@ -149,6 +199,8 @@ When the user asks you to lint or audit the wiki:
 - Flag claims that may be outdated based on newer sources
 - Check that all pages follow the page format above
 - Check that all `wiki/glossary/` entries have valid frontmatter with at least one recognised type tag (`__DEFINITION`, `__CONCEPT`, `__EXECUTABLE`)
+- Check that all files (pages and glossary entries) have the required metadata fields: `CreatedAt`, `LastUpdateAt`, `GeneratedBy`
+- Flag any file where `GeneratedBy` is set and `LastReviewAt` is null — these are AI-generated and unreviewed
 - Report findings as a numbered list with suggested fixes
 
 ## Rules
