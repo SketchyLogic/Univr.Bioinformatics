@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ed8d79265d1d96d7",
+        "id": "0a645d35b64c24f3",
         "type": "tabs",
         "children": [
           {
-            "id": "90bd72dc608a6550",
+            "id": "984172770050a426",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/study_path.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "study_path"
-            }
-          },
-          {
-            "id": "5dd2324781f28b26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/pages/viterbi-algorithm.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "viterbi-algorithm"
-            }
-          },
-          {
-            "id": "888e21ee49b208b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/glossary/Spliceosome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Spliceosome"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/pages/viterbi-algorithm.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for viterbi-algorithm"
+              "title": "Backlinks"
             }
           },
           {
@@ -142,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/pages/viterbi-algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from viterbi-algorithm"
+              "title": "Outgoing links"
             }
           },
           {
@@ -185,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/pages/viterbi-algorithm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of viterbi-algorithm"
+              "title": "Outline"
             }
           }
         ],
@@ -213,8 +177,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "5dd2324781f28b26",
+  "active": "984172770050a426",
   "lastOpenFiles": [
+    "__temp/__temp.md",
+    "wiki/pages/viterbi-algorithm.md",
     "wiki/pages/signal-sensors.md",
     "wiki/pages/sequence-search-tools.md",
     "wiki/pages/sequence-alignment.md",
@@ -239,8 +205,6 @@
     "wiki/glossary/Generalized Hidden Markov Model (GHMM).md",
     "wiki/glossary/Force field.md",
     "wiki/glossary/E-value.md",
-    "wiki/glossary/DOPE score.md",
-    "wiki/glossary/Contrast the challenges of gene prediction in prokaryotes and eukaryotes.md",
     "wiki/glossary/_glossary.base",
     "wiki/wiki.base",
     "wiki/glossary/Compare PWM WAM and MDD for splice site modeling.md.tmp.25224.1777216747803",

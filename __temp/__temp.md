@@ -1,1 +1,0 @@
-![[eukaryotic-gene-structure.png]]
