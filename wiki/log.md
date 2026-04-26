@@ -120,3 +120,5 @@ Append-only record of all operations performed on this wiki.
 **Entry created**:
 - `Why are massive introns (100 kb+) functionally tolerated despite their metabolic cost.md` — __QUESTION (Module1): covers metabolic cost vs. benefit, cotranscriptional splicing timing, embedded regulatory elements, tissue-specific expression, and the mutational hazard / drift argument.
 - `Spliceosome.md` — __DEFINITION (Module1): composition (U1/U2/U4/U5/U6 snRNPs, ~150 proteins), two-step transesterification mechanism, assembly order, minor spliceosome, link to GT-AG rule and signal sensors.
+- `Contrast the challenges of gene prediction in prokaryotes and eukaryotes.md` — __CONCEPT (Module1): comparative table (gene density, introns, start-site signals, repeats, operons, tools).
+- `Spurious ATG.md` — __DEFINITION (Module1): in-frame ATG that is not a genuine start site; how Shine-Dalgarno and Kozak signals distinguish real from spurious starts.

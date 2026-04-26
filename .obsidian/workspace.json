@@ -22,21 +22,49 @@
             }
           },
           {
-            "id": "4998a142f7d2a3fe",
+            "id": "7419343c5e1388ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/glossary/What is it that gene prediction predicts.md",
+                "file": "wiki/pages/eukaryotic-gene-structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What is it that gene prediction predicts"
+              "title": "eukaryotic-gene-structure"
+            }
+          },
+          {
+            "id": "945b8b91ee066369",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/glossary/Contrast the challenges of gene prediction in prokaryotes and eukaryotes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Contrast the challenges of gene prediction in prokaryotes and eukaryotes"
+            }
+          },
+          {
+            "id": "8fe6f265135b89aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/glossary/Spurious ATG.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spurious ATG"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/glossary/What is it that gene prediction predicts.md",
+                "file": "wiki/glossary/Spurious ATG.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for What is it that gene prediction predicts"
+              "title": "Backlinks for Spurious ATG"
             }
           },
           {
@@ -128,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/glossary/What is it that gene prediction predicts.md",
+                "file": "wiki/glossary/Spurious ATG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from What is it that gene prediction predicts"
+              "title": "Outgoing links from Spurious ATG"
             }
           },
           {
@@ -171,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/glossary/What is it that gene prediction predicts.md",
+                "file": "wiki/glossary/Spurious ATG.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of What is it that gene prediction predicts"
+              "title": "Outline of Spurious ATG"
             }
           }
         ],
@@ -199,16 +227,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "4998a142f7d2a3fe",
+  "active": "8fe6f265135b89aa",
   "lastOpenFiles": [
-    "wiki/glossary/Why are massive introns (100 kb+) functionally tolerated despite their metabolic cost.md",
-    "wiki/glossary/What is it that gene prediction predicts.md",
-    "wiki/pages/eukaryotic-gene-structure.md",
-    "wiki/glossary/Spliceosome.md",
+    "wiki/glossary/Contrast the challenges of gene prediction in prokaryotes and eukaryotes.md",
+    "wiki/glossary/Spurious ATG.md",
     "wiki/glossary/Shine-Delgarno sequence.md",
+    "wiki/pages/eukaryotic-gene-structure.md",
+    "wiki/study_path.md",
+    "wiki/glossary/What is it that gene prediction predicts.md",
+    "wiki/glossary/Why are massive introns (100 kb+) functionally tolerated despite their metabolic cost.md",
+    "wiki/glossary/Spliceosome.md",
     "wiki/glossary/Open Reading Frame (ORF).md",
     "wiki/glossary/Codon usage bias.md",
-    "wiki/study_path.md",
     "wiki/glossary/_glossary.base",
     "wiki/glossary/Cα RMSD.md",
     "wiki/glossary/Alternative splicing.md",
@@ -227,8 +257,6 @@
     "wiki/glossary/Nonsynonymous SNP (nsSNP).md",
     "wiki/glossary/MARTINI coarse-grained force field.md",
     "wiki/glossary/Explicit vs. implicit solvent.md",
-    "wiki/glossary/Periodic boundary conditions (PBC).md",
-    "wiki/glossary/Ergodic hypothesis.md",
     "CLAUDE.md.tmp.46064.1777142312566",
     "CLAUDE.md.tmp.46064.1777142305724",
     "CLAUDE.md.tmp.46064.1777142293892",
