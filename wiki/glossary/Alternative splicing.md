@@ -17,3 +17,6 @@ The process by which different combinations of exons from a single pre-mRNA tran
 **Scale**: ~95% of human multi-exon genes undergo alternative splicing; a single gene can produce hundreds of isoforms (e.g., Dscam in Drosophila: >38,000 isoforms).
 
 **Implication for gene prediction**: standard ab initio tools predict a **single best transcript** per locus. Accurate isoform-level annotation requires [[extrinsic-vs-intrinsic-information|RNA-seq data]] and specialized tools (e.g., StringTie, AUGUSTUS with hints). See [[gene-prediction-tools]].
+
+# TLDR
+One gene, many proteins: by mixing and matching exons, a single genomic locus can produce dozens or hundreds of different mRNA isoforms. ~95% of human multi-exon genes do this.

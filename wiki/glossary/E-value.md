@@ -25,3 +25,6 @@ A statistical measure used in sequence database searches (BLAST, HMMER, HHpred) 
 **Important**: E-value depends on database size — the same score gives a smaller E-value (more significant) in a smaller database.
 
 See [[sequence-search-tools]], [[sequence-alignment]].
+
+# TLDR
+The number of false hits you'd expect by chance in a database search. Lower is better; E < 0.001 is the common significance cutoff.

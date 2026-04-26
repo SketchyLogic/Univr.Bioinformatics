@@ -18,3 +18,6 @@ The position within a codon at which an intron interrupts the coding sequence:
 **Role in gene prediction**: [[hidden-markov-models|GHMMs]] and [[genscan|GENSCAN]] model intron phases explicitly as separate HMM states (e.g., "intron-phase-0", "intron-phase-1", "intron-phase-2"), with transition probabilities that enforce valid phase combinations at exon junctions.
 
 See [[eukaryotic-gene-structure]], [[genscan]].
+
+# TLDR
+The cut position (0, 1, or 2 bases into a codon) where an intron is inserted. Donor and acceptor phases must match, otherwise splicing shifts the reading frame and the protein is scrambled.

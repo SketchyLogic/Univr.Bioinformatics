@@ -14,3 +14,6 @@ The non-uniform use of synonymous codons (codons encoding the same amino acid) i
 **3-periodic structure**: the three codon positions have very different nucleotide compositions. Position 3 (the wobble position) is the most degenerate. Three separate Markov chains — one per codon position — capture this periodicity. See [[content-sensors]].
 
 **Also relevant to**: recombinant protein production (codon-optimized synthetic genes) and evolutionary analysis (dN/dS ratios).
+
+# TLDR
+Organisms prefer certain synonymous codons over others; coding regions have a distinctive preference signature that gene finders exploit to tell exons from non-coding sequence.

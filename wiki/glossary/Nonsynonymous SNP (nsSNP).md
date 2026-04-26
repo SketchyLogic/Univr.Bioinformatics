@@ -11,8 +11,15 @@ A **single-nucleotide polymorphism** in a protein-coding region that **changes t
 
 **Subtype — missense SNP**: changes one amino acid for another. Distinct from nonsense SNPs, which introduce a premature stop codon.
 
-**Biological relevance**: the vast majority of nsSNPs are **neutral** (tolerated, no effect on protein function); a minority are **damaging** (alter function, cause or predispose to disease). Evidence for purifying selection: predicted damaging nsSNPs have lower **minor allele frequencies** than neutral ones, indicating negative selection removes them from the population.
+**Biological relevance**: the vast majority of nsSNPs are **neutral** (tolerated, no effect on protein function); a minority are **damaging** (alter function, cause or predispose to disease). Evidence for purifying selection: predicted damaging nsSNPs have lower **minor allele frequencies**[^1] than neutral ones, indicating negative selection removes them from the population.
 
 **Prediction tools**: [[SIFT algorithm|SIFT]], PolyPhen-2, SNPs3D, TopoSNP, PANTHER PSEC.
 
 See [[amino-acid-substitutions]], [[evolutionary-conservation]].
+
+# TLDR
+A DNA mutation that swaps one amino acid for another. Most are harmless; the rare damaging ones tend to be kept rare in the population by natural selection.
+
+---
+
+[^1]: **Minor allele frequency (MAF)**: the frequency in the population of the less-common variant at a given genomic position. Low MAF means the variant is rare — consistent with purifying selection eliminating it before it spreads.

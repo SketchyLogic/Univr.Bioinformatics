@@ -24,3 +24,6 @@ where a_{j→i} is the transition probability from state j to i, and b_i(x_k) is
 **In gene finding**: the Viterbi path gives the complete exon/intron/intergenic annotation of an entire genomic sequence in a single pass.
 
 See [[viterbi-algorithm]], [[hidden-markov-models]].
+
+# TLDR
+Given an observed sequence and an HMM, find the single most likely hidden-state path (e.g., the full exon/intron annotation) in O(N²T) time instead of O(N^T).

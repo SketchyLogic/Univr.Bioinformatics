@@ -16,3 +16,6 @@ tags:
 **Limitation**: a statistical potential, not a physical force field. Better for **ranking models** than for absolute quality assessment. Should be complemented with Ramachandran plot analysis and PROCHECK/WHATCHECK stereochemistry checks.
 
 See [[modeller]], [[homology-modeling]].
+
+# TLDR
+A statistical energy score for homology models: more negative = better. Generate 10–100 MODELLER runs and pick the lowest DOPE; then inspect the per-residue profile for problem regions.

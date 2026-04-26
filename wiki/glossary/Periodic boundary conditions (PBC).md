@@ -16,3 +16,6 @@ A technique used in [[molecular-dynamics|molecular dynamics]] simulations to eli
 **Commonly used box shapes**: cubic, rhombic dodecahedron, truncated octahedron (the latter two are more space-efficient for globular proteins).
 
 See [[molecular-dynamics]], [[Explicit vs. implicit solvent]].
+
+# TLDR
+Wrap the simulation box so any atom leaving one face immediately re-enters from the opposite face — effectively simulating a bulk infinite system with a small number of atoms.

@@ -21,3 +21,6 @@ A coarse-grained (CG) [[Force field|force field]] that reduces computational cos
 **Trade-off**: loss of atomic detail; cannot capture processes requiring sub-Å resolution (enzyme mechanisms, precise ligand binding poses, protonation effects).
 
 See [[molecular-dynamics]].
+
+# TLDR
+Groups ~4 atoms into 1 interaction bead for a 100–1000× speedup, enabling microsecond-scale simulations of membranes and large complexes at the cost of atomic detail.
