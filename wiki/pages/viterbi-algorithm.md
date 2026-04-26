@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Viterbi Algorithm
 
 **Summary**: The Viterbi algorithm is a dynamic programming method that solves the HMM decoding problem — finding the most likely sequence of hidden states (e.g., exon/intron annotations) given an observed sequence (DNA nucleotides).

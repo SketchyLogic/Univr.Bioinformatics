@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Gene Prediction
 
 **Summary**: Computational gene prediction is the process of identifying the location and exon-intron structure of genes in a genomic DNA sequence; it is the first step in genome annotation and relies on statistical models of signals and coding content.

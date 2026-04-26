@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Content Sensors
 
 **Summary**: Content sensors measure the statistical properties of DNA sequence composition to discriminate coding from non-coding regions; the most powerful rely on codon position-dependent hexamer frequencies modelled as a 5th-order inhomogeneous Markov chain.

@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Molecular Dynamics
 
 **Summary**: Molecular dynamics (MD) is a computer simulation technique that models the time evolution of a system of interacting atoms by numerically integrating Newton's equations of motion; it captures the dynamical behaviour of biomolecules.

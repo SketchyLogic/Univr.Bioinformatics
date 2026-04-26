@@ -123,3 +123,15 @@ Append-only record of all operations performed on this wiki.
 - `Contrast the challenges of gene prediction in prokaryotes and eukaryotes.md` — __CONCEPT (Module1): comparative table (gene density, introns, start-site signals, repeats, operons, tools).
 - `Relevance of matching intron phases.md` — __CONCEPT (Module1): what phase matching is, biological consequences of mismatch, why it constrains gene prediction search space, and four scenarios where mismatched phases can still yield a gene prediction.
 - `Spurious ATG.md` — __DEFINITION (Module1): in-frame ATG that is not a genuine start site; how Shine-Dalgarno and Kozak signals distinguish real from spurious starts.
+
+---
+
+## 2026-04-26 — Lint-fix pass: YAML frontmatter metadata added to all files
+
+**Changes**:
+
+- All 17 `wiki/pages/` files — prepended full YAML frontmatter block (`CreatedAt`, `LastUpdateAt`, `LastReviewAt`, `ReviewerIds`, `OwnerIds`, `IssueNotes`, `GeneratedById`) before the `# Title` line. Dates assigned from log: 2026-04-24 for original 14 pages, 2026-04-25 for genscan, sequence-search-tools, modeller.
+- All 51 `wiki/glossary/` files — inserted the same metadata fields inside the existing frontmatter block (after `tags:` lines, before closing `---`). Dates assigned from log: 2026-04-24 for 3 pre-existing entries, 2026-04-25 for 36 entries from the Glossary fill-in pass, 2026-04-26 for 6 entries from the New glossary entries pass. Extra pre-existing fields (`depth`, `prerequisites`) preserved in place.
+- `wiki/pages/extrinsic-vs-intrinsic-information.md` — added empty `## Other sources` section between `## Related pages` and `## Test yourself`.
+- `wiki/pages/gene-prediction-tools.md` — added empty `## Other sources` section between `## Related pages` and `## Test yourself`.
+- `wiki/glossary/Why are massive introns (100 kb+) functionally tolerated despite their metabolic cost.md` — fixed broken link `[[alternative-splicing]]` → `[[Alternative splicing]]`.

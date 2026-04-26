@@ -1,6 +1,15 @@
 ---
 tags:
   - __CONCEPT
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
 ---
 # Evolution: random mutation and natural selection
 

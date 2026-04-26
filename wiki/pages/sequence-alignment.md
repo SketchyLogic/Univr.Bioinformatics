@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Sequence Alignment
 
 **Summary**: Sequence alignment identifies correspondences between biological sequences; methods range from pairwise (BLAST, FASTA) to profile-based (PSI-BLAST, HHpred) and are foundational for homology detection, gene prediction, and protein structure modelling.

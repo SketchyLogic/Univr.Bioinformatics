@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-25
+LastUpdateAt: 2026-04-25
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # MODELLER
 
 **Summary**: MODELLER is the most widely used tool for homology modeling; it builds protein 3D models by extracting spatial restraints from a template structure and minimising violations using molecular dynamics with simulated annealing.

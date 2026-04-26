@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-25
+LastUpdateAt: 2026-04-25
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # GENSCAN
 
 **Summary**: GENSCAN (Burge & Karlin, 1997) is the landmark ab initio eukaryotic gene finder; it introduced the Generalized HMM (GHMM) framework with modular, interchangeable signal and content sub-models trained on vertebrate sequences.

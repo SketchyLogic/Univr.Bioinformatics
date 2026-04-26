@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Gene Prediction Tools
 
 **Summary**: A reference page for the major computational gene-finding programs, organised by methodology — from exon-chaining tools to HMM-based predictors, combiners, and RNA-based aligners.
@@ -112,6 +123,8 @@ General principle: combiners perform better than any individual input because in
 - [[evolutionary-conservation]]
 - [[genscan]]
 - [[sequence-search-tools]]
+
+## Other sources
 
 ## Test yourself
 

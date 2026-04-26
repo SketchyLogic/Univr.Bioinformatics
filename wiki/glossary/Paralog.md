@@ -2,6 +2,15 @@
 tags:
   - __DEFINITION
   - Module3
+CreatedAt: 2026-04-25
+LastUpdateAt: 2026-04-25
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
 ---
 # Paralog
 

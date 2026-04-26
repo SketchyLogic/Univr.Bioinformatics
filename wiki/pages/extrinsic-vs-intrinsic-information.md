@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Extrinsic vs. Intrinsic Information in Gene Prediction
 
 **Summary**: Gene prediction methods use two fundamentally different classes of evidence — extrinsic information derived from outside the target sequence, and intrinsic (ab initio) information derived from the sequence itself.
@@ -90,6 +101,8 @@ The integration matters: extrinsic evidence is more reliable when available but 
 - [[evolutionary-conservation]]
 - [[sequence-alignment]]
 - [[gene-prediction-tools]]
+
+## Other sources
 
 ## Test yourself
 

@@ -1,6 +1,15 @@
 ---
 tags:
   - __QUESTION
+CreatedAt: 2026-04-26
+LastUpdateAt: 2026-04-26
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
 ---
 # What is it that gene prediction predicts?
 Given a sequence S

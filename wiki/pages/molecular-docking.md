@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Molecular Docking
 
 **Summary**: Molecular docking computationally predicts the preferred binding pose of a ligand (small molecule or protein) to a receptor by exploring conformational space and scoring interaction energy.

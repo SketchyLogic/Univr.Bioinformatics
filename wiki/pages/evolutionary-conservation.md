@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Evolutionary Conservation
 
 **Summary**: Coding sequences are more conserved than non-coding sequences across related species; conservation is an orthogonal and powerful signal for both gene prediction and the detection of functionally important positions in proteins.

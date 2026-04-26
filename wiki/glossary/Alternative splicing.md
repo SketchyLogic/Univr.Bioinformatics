@@ -4,6 +4,15 @@ tags:
   - Module1
 depth: -1
 prerequisites:
+CreatedAt: 2026-04-25
+LastUpdateAt: 2026-04-25
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
 ---
 # Alternative splicing
 

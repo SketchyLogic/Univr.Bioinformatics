@@ -2,10 +2,19 @@
 tags:
   - __DEFINITION
   - Module1
+CreatedAt: 2026-04-26
+LastUpdateAt: 2026-04-26
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
 ---
 # Spliceosome
 
-A large ribonucleoprotein (RNP) complex that catalyses the removal of introns from pre-mRNA and ligates the flanking exons. It is found in all eukaryotes and is absent in prokaryotes.
+A large ribonucleoprotein (RNP) complex that catalyzes the removal of introns from pre-mRNA and ligates the flanking exons. It is found in all eukaryotes and is absent in prokaryotes.
 
 **Composition**: assembled from five small nuclear RNAs (snRNAs) — U1, U2, U4, U5, U6 — and ~150 associated proteins, forming the **snRNPs** (small nuclear ribonucleoproteins). The catalytic core is RNA-based (the snRNAs themselves perform the chemistry).
 

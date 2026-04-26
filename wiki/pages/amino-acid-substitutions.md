@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Amino Acid Substitutions and Protein Function
 
 **Summary**: Nonsynonymous SNPs (nsSNPs) cause amino acid changes in proteins; computational prediction methods (SIFT, PolyPhen, SNPs3D, etc.) use evolutionary conservation and/or 3D structure to classify substitutions as damaging or neutral.

@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Eukaryotic Gene Structure
 
 **Summary**: An overview of the structural components of eukaryotic protein-coding genes, from promoter to poly-A signal, including the exon-intron organization that makes eukaryotic gene prediction fundamentally harder than prokaryotic gene finding.
@@ -59,7 +70,9 @@ Eukaryotes are fundamentally different:
 
 ## The spliceosome
 
-The major spliceosome (U2-type) processes the vast majority of introns. It recognises:
+[[Spliceosome |Spliceosome basic info]]
+
+The major spliceosome (U2-type) processes the vast majority of introns. It recognizes:
 1. The **donor site** (GT-AG rule; GU in RNA)
 2. The **branch point** adenosine (~20-50 nt from acceptor)
 3. The **polypyrimidine tract** between branch point and acceptor

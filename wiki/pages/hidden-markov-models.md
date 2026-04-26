@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Hidden Markov Models
 
 **Summary**: Hidden Markov Models (HMMs) are probabilistic state machines where observations (e.g., DNA nucleotides) are visible but the underlying states (e.g., exon/intron) are hidden; they are the dominant framework for ab initio gene prediction.

@@ -1,3 +1,14 @@
+---
+CreatedAt: 2026-04-24
+LastUpdateAt: 2026-04-24
+LastReviewAt: null
+ReviewerIds:
+  - admin
+OwnerIds:
+  - admin
+IssueNotes: null
+GeneratedById: claude-sonnet-4-6
+---
 # Homology Modeling
 
 **Summary**: Homology (comparative) modeling predicts the 3D structure of a target protein by using the known structure of a homologous protein (the template); accuracy depends heavily on the sequence identity between target and template.

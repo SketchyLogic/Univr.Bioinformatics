@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      or:
+        - file.inFolder("wiki/pages")
+        - file.inFolder("wiki/glossary")
+    order:
+      - file.name
+      - file.folder
+      - LastReviewAt
+      - LastUpdateAt
+      - OwnerIds
+      - IssueNotes
+    sort:
+      - property: file.folder
+        direction: DESC
+    columnSize:
+      file.name: 378
+      file.folder: 117
