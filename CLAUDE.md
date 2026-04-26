@@ -104,6 +104,12 @@ tags:
 - Graphics and wiki-links (`[[page-name]]`) are welcome inside entries.
 - Do not add the standard page-format headers (Summary, Sources, Last updated) — the frontmatter is sufficient.
 
+### Optional elements
+
+**Footnotes** — use Obsidian footnote syntax (`[^1]` in text, `[^1]: ...` at the end of the file) when a word or phrase in the main definition might trip up the reader but is too tangential to explain inline. Good candidates: jargon assumed by the definition, notation differences (e.g. DNA vs RNA alphabet), or a prerequisite concept the reader may not have. Do not footnote things that are already obvious from context.
+
+**# TLDR** — add a `# TLDR` section (before the footnotes block) when the core idea can be captured in one or two sentences and there is a real chance the reader will grasp "enough" from that alone. Good candidates: definitions where the intuition is simple but the formal explanation is long, or concepts with a memorable one-liner. Omit it when the entry is already brief or when a shortcut would mislead.
+
 ## Imagery
 
 Wiki pages should be enriched with visuals from the raw source material whenever they aid understanding:
