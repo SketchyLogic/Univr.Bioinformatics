@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "7419343c5e1388ca",
+            "id": "1dfd5515f5074b18",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,35 +36,21 @@
             }
           },
           {
-            "id": "945b8b91ee066369",
+            "id": "e386e5f382c4fbe0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/glossary/Contrast the challenges of gene prediction in prokaryotes and eukaryotes.md",
+                "file": "wiki/glossary/Relevance of matching intron phases.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contrast the challenges of gene prediction in prokaryotes and eukaryotes"
-            }
-          },
-          {
-            "id": "8fe6f265135b89aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/glossary/Spurious ATG.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Spurious ATG"
+              "title": "Relevance of matching intron phases"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/glossary/Spurious ATG.md",
+                "file": "wiki/pages/eukaryotic-gene-structure.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Spurious ATG"
+              "title": "Backlinks for eukaryotic-gene-structure"
             }
           },
           {
@@ -156,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/glossary/Spurious ATG.md",
+                "file": "wiki/pages/eukaryotic-gene-structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Spurious ATG"
+              "title": "Outgoing links from eukaryotic-gene-structure"
             }
           },
           {
@@ -199,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/glossary/Spurious ATG.md",
+                "file": "wiki/pages/eukaryotic-gene-structure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Spurious ATG"
+              "title": "Outline of eukaryotic-gene-structure"
             }
           }
         ],
@@ -227,22 +213,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "8fe6f265135b89aa",
+  "active": "1dfd5515f5074b18",
   "lastOpenFiles": [
-    "CLAUDE.md.tmp.25224.1777198214378",
-    "wiki/glossary/Contrast the challenges of gene prediction in prokaryotes and eukaryotes.md",
-    "wiki/glossary/Spurious ATG.md",
-    "wiki/glossary/Shine-Delgarno sequence.md",
+    "wiki/glossary/Relevance of matching intron phases.md",
     "wiki/pages/eukaryotic-gene-structure.md",
+    "wiki/glossary/Intron phase.md",
+    "wiki/glossary/Contrast the challenges of gene prediction in prokaryotes and eukaryotes.md",
+    "wiki/pages/hidden-markov-models.md",
+    "raw/Modelli Nascosti di Markov-Gene pred.pdf",
     "wiki/study_path.md",
+    "wiki/glossary/_glossary.base",
+    "wiki/glossary/Alternative splicing.md",
+    "wiki/glossary/Spurious ATG.md",
+    "CLAUDE.md.tmp.25224.1777198214378",
+    "wiki/glossary/Shine-Delgarno sequence.md",
     "wiki/glossary/What is it that gene prediction predicts.md",
     "wiki/glossary/Why are massive introns (100 kb+) functionally tolerated despite their metabolic cost.md",
     "wiki/glossary/Spliceosome.md",
     "wiki/glossary/Open Reading Frame (ORF).md",
     "wiki/glossary/Codon usage bias.md",
-    "wiki/glossary/_glossary.base",
     "wiki/glossary/Cα RMSD.md",
-    "wiki/glossary/Alternative splicing.md",
     "CLAUDE.md.tmp.15516.1777149551309",
     "wiki/glossary/Ambiguous Interaction Restraint (AIR).md",
     "wiki/glossary/Evolution - Random mutation and natural selection.md",
@@ -255,16 +245,12 @@
     "wiki/glossary/Paralog.md",
     "wiki/glossary/Ortholog.md",
     "wiki/glossary/SIFT algorithm.md",
-    "wiki/glossary/Nonsynonymous SNP (nsSNP).md",
-    "wiki/glossary/MARTINI coarse-grained force field.md",
     "CLAUDE.md.tmp.46064.1777142312566",
     "CLAUDE.md.tmp.46064.1777142305724",
     "CLAUDE.md.tmp.46064.1777142293892",
     "CLAUDE.md.tmp.46064.1777142289551",
     "wiki/glossary",
-    "raw/Modelli Nascosti di Markov-Gene pred.pdf",
     "raw/2.1.gene_prediction_v15.pdf",
-    "raw/graphics/eukaryotic-gene-structure.png",
-    "__temp"
+    "raw/graphics/eukaryotic-gene-structure.png"
   ]
 }

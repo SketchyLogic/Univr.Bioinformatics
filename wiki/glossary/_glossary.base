@@ -7,7 +7,11 @@ views:
     order:
       - file.name
       - depth
+      - prerequisites
       - tags
+    sort:
+      - property: depth
+        direction: ASC
     columnSize:
       file.name: 469
       note.depth: 88

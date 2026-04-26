@@ -52,14 +52,10 @@ Eukaryotes are fundamentally different:
 - **Terminal exon**: from last acceptor to stop codon and into 3' UTR.
 - **Single-exon gene**: intronless gene; rare in higher eukaryotes.
 
-## Intron phases
+## Intron phases and relevance in gene prediction
 
-The **phase** of an intron describes where within a codon the intron interrupts the coding sequence:
-- Phase 0: between codons
-- Phase 1: after first nucleotide of codon
-- Phase 2: after second nucleotide of codon
-
-Reading frames of adjacent exons must be compatible — a constraint that [[hidden-markov-models]] for gene finding enforce explicitly through separate intron/exon states per phase.
+[[Intron phase]]
+[[Relevance of matching intron phases]]
 
 ## The spliceosome
 
