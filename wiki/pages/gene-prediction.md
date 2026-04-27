@@ -21,19 +21,19 @@ GeneratedById: claude-sonnet-4-6
 
 ## Why computational gene prediction?
 
-Experimentally characterising every gene in a genome is prohibitively expensive. Computational prediction is economical and is the starting point for any annotation pipeline. Each prediction is a **hypothesis** to be validated experimentally — the interplay between prediction and experiment drives biological discovery.
+Experimentally characterizing every gene in a genome is prohibitively expensive. Computational prediction is economical and is the starting point for any annotation pipeline. Each prediction is a **hypothesis** to be validated experimentally — the interplay between prediction and experiment drives biological discovery.
 
 The formal problem: **given a DNA sequence (chromosome or genome), identify the precise boundaries and exonic structures of all genes**.
 
 ## Prokaryotic vs. eukaryotic difficulty
 
-| Aspect | Prokaryotes | Eukaryotes |
-|--------|-------------|------------|
-| Gene structure | Continuous ORF | Exons interrupted by introns |
-| Genome size | Small | Orders of magnitude larger |
-| % coding | ~85–90% | ~3% (human) |
-| Key challenge | Frame disambiguation, overlapping ORFs | Exon-intron structure, alternative splicing |
-| Accuracy achievable | >90% (GLIMMER, GeneMark) | Much lower; active research area |
+| Aspect              | Prokaryotes                            | Eukaryotes                                  |
+| ------------------- | -------------------------------------- | ------------------------------------------- |
+| Gene structure      | Continuous ORF                         | Exons interrupted by introns                |
+| Genome size         | Small                                  | Orders of magnitude larger                  |
+| % coding            | ~85–90%                                | ~3% (human)                                 |
+| Key challenge       | Frame disambiguation, overlapping ORFs | Exon-intron structure, alternative splicing |
+| Accuracy achievable | >90% (GLIMMER, GeneMark)               | Much lower; active research area            |
 
 ## Two classes of information
 
@@ -60,14 +60,14 @@ Genomic sequence
 
 ## Frameworks for integration
 
-| Framework | Key idea | Example tools |
-|-----------|----------|---------------|
-| Exon-chaining | Score and chain candidate exons via dynamic programming | GeneID, Fgeneh |
-| Generalized HMM (GHMM) | Probabilistic state machine over gene components | GENSCAN, AUGUSTUS |
-| Generalized Pair HMM | Simultaneous alignment + annotation of two genomes | SLAM, TWAIN |
-| Phylo-HMM | Models evolutionary history across multiple genomes | N-SCAN, SHADOWER |
-| Semi-Markov CRF | Discriminative conditional training on sequence features | CRAIG, CONTRAST |
-| Combiners | Merge predictions from multiple tools | GLEAN, EuGène, Genomix |
+| Framework              | Key idea                                                 | Example tools          |
+| ---------------------- | -------------------------------------------------------- | ---------------------- |
+| Exon-chaining          | Score and chain candidate exons via dynamic programming  | GeneID, Fgeneh         |
+| Generalized HMM (GHMM) | Probabilistic state machine over gene components         | GENSCAN, AUGUSTUS      |
+| Generalized Pair HMM   | Simultaneous alignment + annotation of two genomes       | SLAM, TWAIN            |
+| Phylo-HMM              | Models evolutionary history across multiple genomes      | N-SCAN, SHADOWER       |
+| Semi-Markov CRF        | Discriminative conditional training on sequence features | CRAIG, CONTRAST        |
+| Combiners              | Merge predictions from multiple tools                    | GLEAN, EuGène, Genomix |
 
 Details in [[hidden-markov-models]] and [[gene-prediction-tools]].
 

@@ -26,7 +26,8 @@ GeneratedById: claude-sonnet-4-6
 | Extrinsic | Evidence not from the target genome sequence | cDNA, ESTs, protein homology, RNA-seq |
 | Intrinsic / ab initio | Derived solely from the target genome sequence | Signal sensors, content sensors, conservation |
 
-Methods using no extrinsic information are called **de novo** methods. The term **ab initio** is used strictly for de novo methods that also do not use informant genomes.
+Methods using no extrinsic information are called **de novo** methods. 
+The term **ab initio** is used strictly for de novo methods that also do not use informant genomes.
 
 ## Extrinsic information
 

@@ -135,3 +135,10 @@ Append-only record of all operations performed on this wiki.
 - `wiki/pages/extrinsic-vs-intrinsic-information.md` — added empty `## Other sources` section between `## Related pages` and `## Test yourself`.
 - `wiki/pages/gene-prediction-tools.md` — added empty `## Other sources` section between `## Related pages` and `## Test yourself`.
 - `wiki/glossary/Why are massive introns (100 kb+) functionally tolerated despite their metabolic cost.md` — fixed broken link `[[alternative-splicing]]` → `[[Alternative splicing]]`.
+
+---
+
+## 2026-04-27 — New glossary entry
+
+**Entry created**:
+- `informant genome.md` — __DEFINITION (Module1): what an informant genome is, how taxonomic distance affects choice, usage comparison across SGP2 / TWINSCAN / N-SCAN, and the distinction from ab initio prediction.
