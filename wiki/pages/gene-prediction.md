@@ -1,6 +1,6 @@
 ---
 CreatedAt: 2026-04-24
-LastUpdateAt: 2026-04-24
+LastUpdateAt: 2026-04-27
 LastReviewAt: null
 ReviewerIds:
   - admin
@@ -40,7 +40,8 @@ The formal problem: **given a DNA sequence (chromosome or genome), identify the 
 Gene prediction methods draw on two broad information classes (see [[extrinsic-vs-intrinsic-information]]):
 
 1. **Extrinsic** — evidence external to the target genome: cDNA, ESTs, protein homology.
-2. **Intrinsic / ab initio** — derived from the sequence alone: signal sensors + content sensors + conservation.
+2. **Intrinsic "ab initio"** — derived from the target sequence alone: signal sensors + content sensors. No informant genome.
+3. **Intrinsic "de novo"** — same as ab initio, but also uses conservation from an [[informant genome]] alignment.
 
 ## The prediction pipeline conceptually
 
