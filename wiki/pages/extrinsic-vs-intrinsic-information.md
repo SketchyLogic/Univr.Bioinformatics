@@ -1,6 +1,6 @@
 ---
 CreatedAt: 2026-04-24
-LastUpdateAt: 2026-04-24
+LastUpdateAt: 2026-04-28
 LastReviewAt: null
 ReviewerIds:
   - admin
@@ -18,7 +18,6 @@ GeneratedById: claude-sonnet-4-6
 **Last updated**: 2026-04-24
 
 ---
-
 ## The division
 
 | Class | Definition | Examples |
@@ -27,13 +26,15 @@ GeneratedById: claude-sonnet-4-6
 | Intrinsic / ab initio | Derived solely from the target genome sequence | Signal sensors, content sensors, conservation |
 
 Methods using no extrinsic information are called **de novo** methods. 
-The term **ab initio** is used strictly for de novo methods that also do not use informant genomes.
+The term **ab initio** is used strictly for de novo methods that also do not use [[informant genome]].
 
 ## Extrinsic information
 
 ### Full-length cDNA (gold standard)
 
-A full-length cDNA aligned to the genome with canonical splice sites defines the **gold standard** for gene annotation. It directly gives transcript boundaries and exon coordinates.
+A full-length cDNA aligned to the genome with canonical splice sites defines the [[gold standard for gene annotation]]. It directly gives transcript boundaries and exon coordinates.
+
+**How it is obtained**: total RNA is extracted from a tissue or cell line, and poly-A-tailed mRNAs are isolated. Reverse transcriptase converts each mRNA into a single-stranded cDNA using the poly-A tail as a priming site; a second strand is then synthesised to produce double-stranded cDNA. The result is then sequenced and matched against a database (e.g. NCBI RefSeq, EMBL) to align it with a genome.
 
 Tools for spliced alignment: **BLAST** (rough), then dedicated spliced aligners:
 - Procrustes, EST_GENOME, sim4, BLAT, GMAP, Exonerate, Genewise
@@ -115,3 +116,4 @@ The integration matters: extrinsic evidence is more reliable when available but 
 
 **Q**: What are ESTs and how are they used in gene prediction?
 **A**: Expressed Sequence Tags are short, single-pass cDNA sequences. They are aligned to the genome as partial evidence of transcription. Because they are partial, they must be combined with other evidence (ab initio or other ESTs) to define full gene models.
+

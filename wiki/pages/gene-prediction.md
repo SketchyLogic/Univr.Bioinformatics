@@ -61,6 +61,8 @@ Genomic sequence
 
 ## Frameworks for integration
 
+[[integration framework|Basic info about integration frameworks]]
+
 | Framework              | Key idea                                                 | Example tools          |
 | ---------------------- | -------------------------------------------------------- | ---------------------- |
 | Exon-chaining          | Score and chain candidate exons via dynamic programming  | GeneID, Fgeneh         |
@@ -76,8 +78,8 @@ Details in [[hidden-markov-models]] and [[gene-prediction-tools]].
 
 Gene prediction programs have separate model and parameter components. Parameters (splice site weight matrices, codon bias models, intron/exon length distributions) must be **trained per species**. Methods include:
 - Maximum likelihood estimation from annotated genomes
-- Baum-Welch EM for unlabelled data
-- Discriminative training (maximising annotation accuracy directly)
+- Baum-Welch EM for unlabeled data
+- Discriminative training (maximizing annotation accuracy directly)
 
 Evaluation uses sensitivity (Sn) and specificity (Sp) at the nucleotide, exon, and gene levels:
 - **Nucleotide Sn** = correctly predicted coding nucleotides / all true coding nucleotides

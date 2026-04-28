@@ -3,15 +3,16 @@ tags:
   - __CONCEPT
   - Module1
 depth: -1
+risk: 0
 prerequisites:
 CreatedAt: 2026-04-25
 LastUpdateAt: 2026-04-25
-LastReviewAt: null
+LastReviewAt:
 ReviewerIds:
   - admin
 OwnerIds:
   - admin
-IssueNotes: null
+IssueNotes:
 GeneratedById: claude-sonnet-4-6
 ---
 # Alternative splicing

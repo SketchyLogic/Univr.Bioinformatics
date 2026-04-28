@@ -138,7 +138,37 @@ Append-only record of all operations performed on this wiki.
 
 ---
 
+## 2026-04-27 — New glossary entry (types of introns)
+
+**Entry created**:
+- `Types of introns.md` — __CONCEPT (Module1): comparison table of all five intron classes (spliceosomal U2, U12, Group I, Group II, tRNA), removal mechanisms, boundary signals, and why gene prediction targets only spliceosomal U2-type introns.
+
+---
+
+## 2026-04-27 — New glossary entry (Structure of mRNA)
+
+**Entry created**:
+- `Structure of mRNA.md` — __CONCEPT (Module1): linear layout of mature eukaryotic mRNA (5′ cap, 5′ UTR, CDS, 3′ UTR, poly-A tail), relevance to full-length cDNA and gene annotation boundaries.
+
+---
+
+## 2026-04-27 — New glossary entry (gene annotation)
+
+**Entry created**:
+- `gene annotation.md` — __DEFINITION (Module1): what annotation produces, why it is needed, and how it is generated.
+
+---
+
+## 2026-04-27 — New glossary entry (gold standard)
+
+**Entry created**:
+- `gold standard for gene annotation.md` — __CONCEPT (GenePrediction): explains full-length cDNA, spliced alignment, canonical GT–AG splice sites, and why their combination makes the annotation ground truth.
+
+---
+
 ## 2026-04-27 — New glossary entry
 
 **Entry created**:
 - `informant genome.md` — __DEFINITION (Module1): what an informant genome is, how taxonomic distance affects choice, usage comparison across SGP2 / TWINSCAN / N-SCAN, and the distinction from ab initio prediction.
+- `integration framework.md` — __CONCEPT (Module1): why integration is needed (local sensor scores vs. global valid gene structure), comparison of all six framework types (exon chaining, GHMM, GPHM, Phylo-HMM, SM-CRF, combiners).
+- `wiki/pages/gene-prediction.md` — fixed incorrect classification: conservation moved from ab initio to de novo in the "Two classes of information" section.

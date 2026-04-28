@@ -18,3 +18,5 @@ Le evidenze sperimentali non trovano però mai questo gene trascritto
 In realtà gene x è effettivamente attivo e trascritto nell'organismo raramente o solo qunado la cellula riceve determinati input da tessuti adiacenti.
 
 Trattasi di effettivamente qualcosa che può accadere in linea di principio o ci sono steps nel flusso di predizione e validazione che gestiscono questa problematica?
+
+[[gene annotation]]

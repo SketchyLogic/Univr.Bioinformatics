@@ -3,6 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "depth": "number"
+    "depth": "number",
+    "risk": "number"
   }
 }

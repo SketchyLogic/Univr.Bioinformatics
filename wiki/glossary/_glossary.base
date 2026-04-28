@@ -7,7 +7,7 @@ views:
     order:
       - file.name
       - depth
-      - prerequisites
+      - risk
       - tags
     sort:
       - property: depth
@@ -15,3 +15,4 @@ views:
     columnSize:
       file.name: 469
       note.depth: 88
+      note.risk: 94
