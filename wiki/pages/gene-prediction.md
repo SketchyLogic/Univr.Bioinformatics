@@ -19,11 +19,13 @@ GeneratedById: claude-sonnet-4-6
 
 ---
 
+
 ## Why computational gene prediction?
 
 Experimentally characterizing every gene in a genome is prohibitively expensive. Computational prediction is economical and is the starting point for any annotation pipeline. Each prediction is a **hypothesis** to be validated experimentally — the interplay between prediction and experiment drives biological discovery.
 
 The formal problem: **given a DNA sequence (chromosome or genome), identify the precise boundaries and exonic structures of all genes**.
+
 
 ## Prokaryotic vs. eukaryotic difficulty
 

@@ -12,6 +12,7 @@ Follow the paths below in order. Each step links to a wiki page. After reading e
 
 ---
 
+
 ## Module 1 — Foundations of Gene Structure (start here)
 
 **Goal**: Understand what a eukaryotic gene looks like and why predicting them is hard.

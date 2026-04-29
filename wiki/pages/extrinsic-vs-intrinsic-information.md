@@ -15,14 +15,12 @@ GeneratedById: claude-sonnet-4-6
 
 **Sources**: [[2.1.gene_prediction_v15.pdf]]
 
-**Last updated**: 2026-04-24
-
 ---
 ## The division
 
-| Class | Definition | Examples |
-|-------|-----------|---------|
-| Extrinsic | Evidence not from the target genome sequence | cDNA, ESTs, protein homology, RNA-seq |
+| <br>Class             | Definition                                     | Examples                                      |
+| --------------------- | ---------------------------------------------- | --------------------------------------------- |
+| Extrinsic             | Evidence not from the target genome sequence   | cDNA, ESTs, protein homology, RNA-seq         |
 | Intrinsic / ab initio | Derived solely from the target genome sequence | Signal sensors, content sensors, conservation |
 
 Methods using no extrinsic information are called **de novo** methods. 
@@ -34,7 +32,8 @@ The term **ab initio** is used strictly for de novo methods that also do not use
 
 A full-length cDNA aligned to the genome with canonical splice sites defines the [[gold standard for gene annotation]]. It directly gives transcript boundaries and exon coordinates.
 
-**How it is obtained**: total RNA is extracted from a tissue or cell line, and poly-A-tailed mRNAs are isolated. Reverse transcriptase converts each mRNA into a single-stranded cDNA using the poly-A tail as a priming site; a second strand is then synthesised to produce double-stranded cDNA. The result is then sequenced and matched against a database (e.g. NCBI RefSeq, EMBL) to align it with a genome.
+> [!How is cDNA obtained?]-
+> **How it is obtained**: total RNA is extracted from a tissue or cell line, and poly-A-tailed mRNAs are isolated. Reverse transcriptase converts each mRNA into a single-stranded cDNA using the poly-A tail as a priming site; a second strand is then synthesised to produce double-stranded cDNA. The result is then sequenced and matched against a database (e.g. NCBI RefSeq, EMBL) to align it with a genome.
 
 Tools for spliced alignment: **BLAST** (rough), then dedicated spliced aligners:
 - Procrustes, EST_GENOME, sim4, BLAT, GMAP, Exonerate, Genewise
@@ -43,17 +42,16 @@ These use either simple terminal dinucleotide models or position weight matrices
 
 ### ESTs and short reads
 
+[[Expressed Sequence Tag (EST) |EST 101]]
 Expressed Sequence Tags (ESTs) are partial cDNA sequences. Their alignments are useful but incomplete. RNA-seq reads provide similar evidence at scale.
 
-When homology is incomplete or low quality, the spliced alignment can be extended with ab initio prediction — as done by ENSEMBL and UCSC gene pipelines.
+Extrinsic evidence is rarely complete: an EST may cover only two of five exons, or a cDNA may be missing the 5′ end. When the available alignments leave parts of a gene model unsupported, pipelines such as ENSEMBL and UCSC fill the gaps with ab initio prediction — running a gene finder over the uncovered region and grafting its output onto the exons already anchored by extrinsic evidence. The final gene model is a hybrid: experimentally grounded where evidence exists, computationally inferred where it does not.
 
 ### Protein homology
 
 Protein sequences from related organisms can be aligned to the genome with tools like Genewise (aligns proteins accounting for introns). Useful when:
 - Full cDNA is unavailable
-- A well-characterised protein family exists in another species
-
-At low similarity, BLAST HSPs (High Scoring Pairs) can be incorporated probabilistically into pair HMMs.
+- A well-characterized protein family exists in another species
 
 ## Intrinsic information
 

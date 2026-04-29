@@ -12,7 +12,6 @@ OwnerIds:
 IssueNotes: null
 GeneratedBy: claude-sonnet-4-6
 ---
-
 The **gold standard** for gene annotation is a **full-length cDNA sequence that has been aligned to the genome and whose intron boundaries land on canonical splice sites**.
 
 Each term carries weight:

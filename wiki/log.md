@@ -138,6 +138,19 @@ Append-only record of all operations performed on this wiki.
 
 ---
 
+## 2026-04-29 — New glossary entries
+
+**Entries created**:
+- `Expressed Sequence Tag (EST).md` — __CONCEPT (Module1): definition, why ESTs were relevant, what is replacing them (RNA-seq, long-read RNA-seq).
+- `Homology.md` — __CONCEPT (Module1): homology vs. similarity, ortholog/paralog/xenolog distinction, relevance to protein homology evidence and evolutionary conservation in gene prediction.
+
+---
+
+**Entry created**:
+- `Expressed Sequence Tag (EST).md` — __CONCEPT (Module1): definition, why ESTs were relevant, what is replacing them (RNA-seq, long-read RNA-seq).
+
+---
+
 ## 2026-04-27 — New glossary entry (types of introns)
 
 **Entry created**:
