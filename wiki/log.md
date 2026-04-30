@@ -138,6 +138,53 @@ Append-only record of all operations performed on this wiki.
 
 ---
 
+## 2026-04-29 — New glossary entry (log2 in PWM)
+
+**Entry created**:
+- `Why log2 in PWM scoring.md` — __CONCEPT (Module1): why the likelihood ratio is logged — numerical stability, neutral point, worked 4-position example, and why base 2 gives bits.
+
+---
+
+## 2026-04-29 — Glossary updates
+
+**Created**:
+- `Branch point (splicing).md` — __DEFINITION (Module1): reactive adenosine forming the lariat, YNYURAY consensus, position diagram.
+- `Polypyrimidine tract.md` — __DEFINITION (Module1): C/T-rich stretch recruiting U2AF65, relevance to acceptor PWMs.
+
+**Updated**:
+- `Position Weight Matrix (PWM).md` — upgraded from __DEFINITION to __CONCEPT; added worked example (frequency matrix, scoring formula), weighted-checklist intuition, and motivation for WAM/MDD.
+- `extrinsic-vs-intrinsic-information.md` — signal sensors list reorganised into splicing / translation / transcription groups with wiki-links.
+
+---
+
+## 2026-04-29 — New glossary entries (splicing signals)
+
+**Entries created**:
+- `Branch point.md` — __DEFINITION (Module1): the reactive adenosine that forms the lariat, mechanism, consensus YNYURAY, position relative to acceptor.
+- `Polypyrimidine tract.md` — __DEFINITION (Module1): C/T-rich stretch between branch point and AG, U2AF65 binding, relevance to acceptor PWMs.
+
+**Page updated**:
+- `extrinsic-vs-intrinsic-information.md` — signal sensors list reorganised into three labelled groups (splicing, translation, transcription) with wiki-links.
+
+---
+
+## 2026-04-29 — New glossary entry (TATA box)
+
+**Entry created**:
+- `TATA box.md` — __DEFINITION (Module1): consensus sequence, position relative to TSS, TBP binding and PIC assembly, role as a signal sensor in gene prediction, and why it is unreliable alone (~24 % of human promoters).
+
+---
+
+## 2026-04-30 — New glossary entry + update (conditional probability / PWM)
+
+**Entry created**:
+- `Refresher on conditional probabilities.md` — __CONCEPT (Module1): definition of conditional probability, the chain rule applied to P(window|signal), the positional independence assumption, how it collapses the chain rule to a product, and the connection to the PWM scoring formula.
+
+**Entry updated**:
+- `Why log2 in PWM scoring.md` — added "Conditional probability connection" section tracing the product formula back to the chain rule and the independence assumption; updated wiki-link in the starting-point section.
+
+---
+
 ## 2026-04-29 — New glossary entries
 
 **Entries created**:

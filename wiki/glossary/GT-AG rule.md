@@ -12,6 +12,12 @@ OwnerIds:
 IssueNotes: null
 GeneratedById: claude-sonnet-4-6
 ---
+# TLDR
+
+In euk most introns that are spliced out start with GT & ends with AG
+# Mnemonic
+
+**G**ood**T**imes - **A**nd**G**oodbyes
 # GT-AG rule
 
 The canonical dinucleotides found at the boundaries of virtually all spliceosomal introns in eukaryotes:

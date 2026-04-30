@@ -58,12 +58,18 @@ Protein sequences from related organisms can be aligned to the genome with tools
 Intrinsic approaches use three types of signals in the sequence:
 
 ### 1. Signal sensors
-Short, recognisable sequence motifs at functional boundaries:
-- Donor splice sites (GT)
-- Acceptor splice sites (AG), branch point, polypyrimidine tract
-- Start codon (ATG), Kozak context
+Short, recognizable sequence motifs at functional boundaries:
+
+**Splicing signals** (mark intron boundaries):
+- Donor splice sites ([[GT-AG rule|GT]]) — 5′ end of intron
+- Acceptor splice sites ([[GT-AG rule|AG]]), [[Branch point (splicing)|Branch point]], [[Polypyrimidine tract]] — 3′ end of intron
+
+**Translation signals** (mark coding sequence boundaries):
+- Start codon (ATG), [[Kozak consensus sequence|Kozak context]]
 - Stop codon (TAA, TAG, TGA)
-- Promoter elements (TATA box), poly-A signal (AATAAA)
+
+**Transcription signals** (mark gene boundaries):
+- Promoter elements ([[TATA box]]), poly-A signal (AATAAA)
 
 Modelled by [[signal-sensors]] (PWMs, WAMs, Markov chains, SVMs).
 

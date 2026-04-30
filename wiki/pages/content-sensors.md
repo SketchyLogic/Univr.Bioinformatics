@@ -1,6 +1,6 @@
 ---
 CreatedAt: 2026-04-24
-LastUpdateAt: 2026-04-24
+LastUpdateAt: 2026-04-30
 LastReviewAt: null
 ReviewerIds:
   - admin
@@ -26,14 +26,12 @@ Protein-coding regions have characteristic biases in DNA sequence composition ab
 1. **Amino acid usage bias** — not all amino acids are equally common in real proteins.
 2. **Synonymous codon usage bias** — among synonymous codons (those encoding the same amino acid), organisms preferentially use a subset.
 
-Both biases appear as non-random hexamer (6-mer) frequencies in coding DNA.
-
 ## Coding statistics
 
 A **coding statistic** is a function that computes a real number related to the likelihood that a DNA sequence codes for a protein. Most coding statistics measure directly or indirectly:
-- Codon or di-codon usage bias
-- Base compositional bias between the three codon positions
-- Periodicity in base occurrence (period 3, reflecting the triplet genetic code)
+
+- **Codon or di-codon usage bias** — which of the 64 codons (or adjacent codon pairs) are over- or under-represented relative to a null model.
+- **Base compositional bias between the three codon positions** — the three positions inside a codon are not equivalent. Positions 1 and 2 are under strong selective pressure (changing them usually changes the amino acid). Position 3 is the "wobble" position: many amino acids tolerate any nucleotide there, so it accumulates very different nucleotide frequencies. As a result, the A/T/G/C proportions at codon position 1, 2, and 3 are measurably distinct from each other — and from non-coding sequence.
 
 ## 5th-order codon position-dependent Markov model
 
@@ -59,8 +57,6 @@ Figure 3 from Alioto & Guigó shows coding potential calculated by a 5th-order M
 | Di-codon usage | Frequency of adjacent codon pairs |
 | Base composition bias | GC content difference between codon positions |
 | Fourier analysis (period 3) | Power at frequency 1/3 as signal of coding |
-
-Neural networks (GRAIL, early 1990s) combined multiple coding statistics to identify candidate exons, pioneering the idea that these measures are complementary.
 
 ## Why 5th-order?
 
