@@ -2,7 +2,79 @@
 
 **Summary**: Key concepts, flashcards, and structured review sections for all topics in the Univr Bioinformatics wiki. Use this as the primary self-assessment resource.
 
-**Last updated**: 2026-04-24
+**Last updated**: 2026-05-02
+
+---
+
+## Section 0 — Bioinformatics & Genome Annotation Overview
+
+### Core concepts to master
+
+1. Definition of bioinformatics and the types of biological information it processes
+2. The four omics layers in order: Genomics → Transcriptomics → Proteomics → Metabolomics
+3. What genome annotation means: localization + structure + function of all genomic elements
+4. Distinction between structural annotation and functional annotation
+5. The four families of annotation methods: experimental evidence, ab initio, hybrid, comparative
+6. Experimental evidence types and their tradeoffs (cDNA full-length, EST, RNA-Seq, homologous proteins)
+7. Why RNA-Seq is the most accurate evidence for splice junction prediction
+8. Sensitivity, specificity, and accuracy formulas; which denominator is which
+9. Three levels of accuracy evaluation: gene locus, exonic regions, exon-intron junctions
+10. EVM: how it integrates evidence with weights; key insight that experimental > ab initio
+
+### Flashcards
+
+**Q**: Define bioinformatics.
+**A**: The scientific discipline that seeks to solve biological problems at the molecular level through the computational processing of information derived from living organisms.
+
+---
+
+**Q**: What are the four omics layers and what does each study?
+**A**: Genomics (genome structure/function), Transcriptomics (all RNA transcripts), Proteomics (all proteins), Metabolomics (all small molecules). They form a cascade: genome → transcriptome → proteome → metabolome.
+
+---
+
+**Q**: What does genome annotation mean?
+**A**: Determining the localization, structure, and function of all elements in a genome: protein-coding genes, non-coding genes, regulatory elements, repeated elements, pseudogenes.
+
+---
+
+**Q**: What is the difference between structural and functional annotation?
+**A**: Structural annotation defines *where* a gene is and *what its exon/intron structure is* (CDS, UTR, alternative transcripts). Functional annotation assigns a *biological role* to the protein product.
+
+---
+
+**Q**: What are the four families of methods for identifying protein-coding genes?
+**A**: (1) Alignment of experimental evidence, (2) Ab initio gene prediction, (3) Ab initio guided by experimental evidence (hybrid), (4) Comparative genomics (cross-species alignment).
+
+---
+
+**Q**: Give three types of experimental evidence used in genome annotation and one property of each.
+**A**: cDNA full-length (complete mRNA including UTR; gold standard), EST (partial cDNA, 400–800 bp; older technology), RNA-Seq (50–150 bp reads from whole transcriptome; highest splice junction accuracy), Homologous proteins (amino acid sequences from related organisms; high specificity, lower sensitivity).
+
+---
+
+**Q**: Why does RNA-Seq have such high accuracy for splice junction prediction (AC ~0.91 in Vitis vinifera)?
+**A**: Because RNA-Seq reads that span a splice junction are split across the intron when aligned to genomic DNA, directly and precisely revealing the exact exon-intron boundary coordinates.
+
+---
+
+**Q**: Write the formulas for Sn, Sp, and AC in gene prediction evaluation.
+**A**: $Sn = |i \cap j| / |j|$, $Sp = |i \cap j| / |i|$, $AC = (Sn + Sp) / 2$, where $i$ = predicted set and $j$ = reference set.
+
+---
+
+**Q**: Which denominator is used for sensitivity and which for specificity?
+**A**: Sensitivity uses the **reference** as denominator ($|j|$) — "how much of truth did I recover?". Specificity uses the **prediction** as denominator ($|i|$) — "how much of my prediction is correct?".
+
+---
+
+**Q**: Name the three levels of accuracy evaluation and explain why junction level is most stringent.
+**A**: Gene locus (coarse detection), exonic regions (nucleotide classification), exon-intron junctions (exact splice coordinates). Junction level is most stringent because it requires exact boundary placement; a gene detected at the right locus but with wrong exon boundaries has incorrect CDS and produces a wrong protein.
+
+---
+
+**Q**: What is EVM and how does it produce a final annotation?
+**A**: Evidence Modeller assigns numerical weights to each evidence source (experimental evidence weighted higher than ab initio predictions) and at each locus selects the gene model that maximises the sum of weighted support.
 
 ---
 

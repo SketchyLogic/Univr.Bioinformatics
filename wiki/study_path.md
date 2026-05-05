@@ -13,13 +13,23 @@ Follow the paths below in order. Each step links to a wiki page. After reading e
 ---
 
 
-## Module 1 — Foundations of Gene Structure (start here)
+## Module 0 — Course Introduction
+
+**Goal**: Understand what bioinformatics and genomics are, and what genome annotation means in practice.
+
+1. [[introduction-to-bioinformatics]] — What bioinformatics is, the omics landscape (Genomics → Transcriptomics → Proteomics → Metabolomics), and the tasks of genomics.
+
+2. [[genome-annotation-pipeline]] — The complete annotation workflow: experimental evidence types (cDNA, EST, RNA-Seq, homologous proteins), *ab initio* prediction, hybrid approaches, EVM final annotation, accuracy metrics (Sn/Sp/AC at three levels), and the *Vitis vinifera* case study. **Read this early** to see the big picture before diving into individual components.
+
+---
+
+## Module 1 — Foundations of Gene Structure
 
 **Goal**: Understand what a eukaryotic gene looks like and why predicting them is hard.
 
-1. [[eukaryotic-gene-structure]] — Learn the anatomy: exons, introns, splice sites, UTRs, the GT-AG rule, intron phases. This is the biological foundation for everything that follows.
+3. [[eukaryotic-gene-structure]] — Learn the anatomy: exons, introns, splice sites, UTRs, the GT-AG rule, intron phases. This is the biological foundation for everything that follows.
 
-2. [[gene-prediction]] — Understand the computational problem, the two classes of information, the evaluation metrics (sensitivity/specificity), and why training is species-specific.
+4. [[gene-prediction]] — Understand the computational problem, the two classes of information, the evaluation metrics (sensitivity/specificity), and why training is species-specific.
 
 ---
 
@@ -27,13 +37,13 @@ Follow the paths below in order. Each step links to a wiki page. After reading e
 
 **Goal**: Understand what evidence is used and how it is modelled statistically.
 
-3. [[extrinsic-vs-intrinsic-information]] — cDNA gold standard vs. ab initio methods; ESTs, protein homology, the stepwise vs. integrated pipeline.
+5. [[extrinsic-vs-intrinsic-information]] — cDNA gold standard vs. ab initio methods; ESTs, protein homology, the stepwise vs. integrated pipeline.
 
-4. [[signal-sensors]] — PWMs, WAMs, MDD; how splice sites and other signals are detected statistically. **Key concept**: log-likelihood ratio scoring.
+6. [[signal-sensors]] — PWMs, WAMs, MDD; how splice sites and other signals are detected statistically. **Key concept**: log-likelihood ratio scoring.
 
-5. [[content-sensors]] — Codon bias, hexamer frequencies, the 5th-order inhomogeneous Markov model. **Key concept**: why 3-periodic and why 5th-order.
+7. [[content-sensors]] — Codon bias, hexamer frequencies, the 5th-order inhomogeneous Markov model. **Key concept**: why 3-periodic and why 5th-order.
 
-6. [[evolutionary-conservation]] — Conservation as an orthogonal signal for both gene prediction and protein function.
+8. [[evolutionary-conservation]] — Conservation as an orthogonal signal for both gene prediction and protein function.
 
 ---
 
@@ -41,11 +51,11 @@ Follow the paths below in order. Each step links to a wiki page. After reading e
 
 **Goal**: Understand how signal + content + structure are integrated into a gene prediction model.
 
-7. [[hidden-markov-models]] — The dishonest casino analogy; 5 HMM components; 3 fundamental problems; from 2-state toy model to realistic GHMMs; Phylo-HMMs; SM-CRFs. **Central page of the course**.
+9. [[hidden-markov-models]] — The dishonest casino analogy; 5 HMM components; 3 fundamental problems; from 2-state toy model to realistic GHMMs; Phylo-HMMs; SM-CRFs. **Central page of the course**.
 
-8. [[viterbi-algorithm]] — The decoding algorithm in detail. Trace through the worked example. Understand the role of transition vs. emission probabilities.
+10. [[viterbi-algorithm]] — The decoding algorithm in detail. Trace through the worked example. Understand the role of transition vs. emission probabilities.
 
-9. [[gene-prediction-tools]] — Reference survey of tools (GENSCAN, AUGUSTUS, GeneID, combiners, spliced aligners). Know which method class each belongs to.
+11. [[gene-prediction-tools]] — Reference survey of tools (GENSCAN, AUGUSTUS, GeneID, combiners, spliced aligners). Know which method class each belongs to.
 
 ---
 
@@ -53,9 +63,9 @@ Follow the paths below in order. Each step links to a wiki page. After reading e
 
 **Goal**: Understand how protein 3D structure is predicted computationally and its limitations.
 
-10. [[sequence-alignment]] — Pairwise (BLAST), profile-sequence (PSI-BLAST), profile-profile (HHpred); the sequence identity zones (safe, twilight, midnight). **Prerequisite** for homology modeling.
+12. [[sequence-alignment]] — Pairwise (BLAST), profile-sequence (PSI-BLAST), profile-profile (HHpred); the sequence identity zones (safe, twilight, midnight). **Prerequisite** for homology modeling.
 
-11. [[homology-modeling]] — Template search, alignment, model construction (MODELLER), the 5 error categories, model quality assessment tools. **Key concept**: SI determines reliability.
+13. [[homology-modeling]] — Template search, alignment, model construction (MODELLER), the 5 error categories, model quality assessment tools. **Key concept**: SI determines reliability.
 
 ---
 
@@ -63,7 +73,7 @@ Follow the paths below in order. Each step links to a wiki page. After reading e
 
 **Goal**: Understand how binding poses and interaction energies are predicted.
 
-12. [[molecular-docking]] — Scoring functions, search methods (systematic vs. stochastic), HADDOCK (AIRs, 3-step protocol, scoring), Autodock vs. Vina.
+14. [[molecular-docking]] — Scoring functions, search methods (systematic vs. stochastic), HADDOCK (AIRs, 3-step protocol, scoring), Autodock vs. Vina.
 
 ---
 
@@ -71,7 +81,7 @@ Follow the paths below in order. Each step links to a wiki page. After reading e
 
 **Goal**: Understand how molecular motion is simulated.
 
-13. [[molecular-dynamics]] — Force fields (AMBER, GROMOS, CHARMM, OPLS), Newton's equations, timestep, integrators (Verlet, Velocity Verlet, Leapfrog), PBC, solvation, thermostats, coarse-grained methods (MARTINI).
+15. [[molecular-dynamics]] — Force fields (AMBER, GROMOS, CHARMM, OPLS), Newton's equations, timestep, integrators (Verlet, Velocity Verlet, Leapfrog), PBC, solvation, thermostats, coarse-grained methods (MARTINI).
 
 ---
 
@@ -79,7 +89,7 @@ Follow the paths below in order. Each step links to a wiki page. After reading e
 
 **Goal**: Understand how single nucleotide variants affect proteins and how to predict their functional impact.
 
-14. [[amino-acid-substitutions]] — nsSNPs, SIFT, PolyPhen, SNPs3D; conservation vs. structure approaches; Mendelian and complex disease applications; the β-globin E6V case study.
+16. [[amino-acid-substitutions]] — nsSNPs, SIFT, PolyPhen, SNPs3D; conservation vs. structure approaches; Mendelian and complex disease applications; the β-globin E6V case study.
 
 ---
 
@@ -98,9 +108,11 @@ After completing the modules:
 ## Quick reference — concept dependencies
 
 ```
+introduction-to-bioinformatics
+        ↓
 eukaryotic-gene-structure
         ↓
-  gene-prediction
+  gene-prediction ←→ genome-annotation-pipeline
         ↓
   extrinsic-vs-intrinsic-information
         ↓
@@ -110,7 +122,7 @@ eukaryotic-gene-structure
         ↓
   viterbi-algorithm
         ↓
-  gene-prediction-tools
+  gene-prediction-tools → genome-annotation-pipeline (EVM / MAKER / PASA)
 
 sequence-alignment
         ↓

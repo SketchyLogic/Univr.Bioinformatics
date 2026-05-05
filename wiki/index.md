@@ -4,10 +4,17 @@ This is the master table of contents. All wiki pages are listed here with one-li
 
 ---
 
+## Introduction & Foundations
+
+| Page | Description |
+|------|-------------|
+| [[introduction-to-bioinformatics]] | What bioinformatics is, the omics landscape, and what genomics studies |
+
 ## Gene Prediction & Genome Annotation
 
 | Page | Description |
 |------|-------------|
+| [[genome-annotation-pipeline]] | Full annotation workflow: evidence types, ab initio, hybrid, EVM, accuracy metrics, Vitis vinifera case study |
 | [[gene-prediction]] | Overview of computational gene finding: problem definition, pipeline, evaluation |
 | [[eukaryotic-gene-structure]] | Anatomy of eukaryotic genes: exons, introns, splice sites, UTRs, poly-A signal |
 | [[extrinsic-vs-intrinsic-information]] | The two classes of evidence: cDNA/ESTs vs. ab initio sequence analysis |

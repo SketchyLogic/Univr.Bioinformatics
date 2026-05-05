@@ -232,3 +232,36 @@ Append-only record of all operations performed on this wiki.
 - `informant genome.md` — __DEFINITION (Module1): what an informant genome is, how taxonomic distance affects choice, usage comparison across SGP2 / TWINSCAN / N-SCAN, and the distinction from ab initio prediction.
 - `integration framework.md` — __CONCEPT (Module1): why integration is needed (local sensor scores vs. global valid gene structure), comparison of all six framework types (exon chaining, GHMM, GPHM, Phylo-HMM, SM-CRF, combiners).
 - `wiki/pages/gene-prediction.md` — fixed incorrect classification: conservation moved from ab initio to de novo in the "Two classes of information" section.
+
+---
+
+## 2026-05-02 — Ingest of lecture 1: Bioinformatics introduction and genome annotation pipeline
+
+**Source ingested**: `raw/0_Introduzione.01_02_Bioinformatica_e_annotazione_genomi.pdf` — Giorgetti Alejandro, Università degli Studi di Verona. First lecture of the course (38 slides). Covers: (1) bioinformatics definition and omics landscape, (2) complete protein-coding gene annotation pipeline — experimental evidence alignment, ab initio, hybrid methods, EVM, automated pipelines (PASA, MAKER), accuracy metrics (Sn/Sp/AC at three levels), and a *Vitis vinifera* benchmark case study.
+
+**Pages created**:
+- `wiki/pages/introduction-to-bioinformatics.md` — bioinformatics definition, omics hierarchy, types of biological information, what genomics studies
+- `wiki/pages/genome-annotation-pipeline.md` — full annotation workflow, all four method families, GFF3, experimental evidence types, hybrid methods, EVM, PASA/MAKER, accuracy metrics, *Vitis vinifera* case study with result tables
+
+**Glossary entries created** (13 new files):
+- `Bioinformatics.md` — __DEFINITION (Module0)
+- `Genomics.md` — __DEFINITION (Module0)
+- `Omics landscape.md` — __CONCEPT (Module0): four-layer hierarchy with table
+- `NGS (Next Generation Sequencing).md` — __DEFINITION (Module0)
+- `RNA-Seq.md` — __DEFINITION (Module0/1): shotgun transcriptome sequencing; why it excels at splice junction detection
+- `cDNA full-length.md` — __DEFINITION (Module1): complete mRNA retrotranscript; why it is the gold standard
+- `GFF3 format.md` — __DEFINITION (Module1): 9 columns, feature hierarchy, example
+- `Functional annotation.md` — __DEFINITION (Module1): assigning biological function to gene products
+- `Structural gene annotation.md` — __DEFINITION (Module1): localization + structure + alternative transcripts
+- `Sensitivity and Specificity in gene prediction.md` — __CONCEPT (Module1): Sn/Sp/AC formulas, three evaluation levels
+- `Annotation accuracy evaluation levels.md` — __CONCEPT (Module1): locus / exonic / junction levels with Vitis examples
+- `Evidence Modeller (EVM).md` — __DEFINITION (Module1): weighted integration of predictions + evidence
+- `MAKER annotation pipeline.md` — __DEFINITION (Module1)
+- `PASA annotation pipeline.md` — __DEFINITION (Module1)
+- `N50.md` — __DEFINITION (Module0): assembly/annotation summary statistic
+- `Calculate sensitivity and specificity of a gene predictor.md` — __EXECUTABLE (Module1): worked example
+
+**Infrastructure updated**:
+- `wiki/index.md` — added Introduction section with `introduction-to-bioinformatics`; added `genome-annotation-pipeline` to Gene Prediction section
+- `wiki/study_path.md` — inserted Module 0 with 2 new steps; renumbered all subsequent steps; updated dependency graph
+- `wiki/exam_prep.md` — added Section 0 (Bioinformatics & Genome Annotation Overview) with 10 core concepts and 11 flashcards
